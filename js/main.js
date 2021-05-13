@@ -8,17 +8,19 @@ if (document.getElementById('sliderHome')) {
     });
 }
 
-if (document.getElementsByClassName("slon__list-catalog__slider").length) {
-    let swiperCatalog = new Swiper('.slon__list-catalog__slider', {
+if (document.getElementsByClassName("voessen__slider-product").length) {
+    let swiperCatalog = new Swiper('.voessen__slider-product', {
         pagination: {
-            el: '.swiper-pagination',
-            type: 'progressbar',
+
         },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
         slidesPerView: 4,
+        lazy: true,
+        observer: true,
+        observeParents: true,
         //loop: true,
         simulateTouch: false,
         breakpoints: {
@@ -37,144 +39,51 @@ if (document.getElementsByClassName("slon__list-catalog__slider").length) {
         }
     });
 }
-
-if (document.getElementsByClassName("js_slider_item_product").length) {
-    let swiperItemProduct = new Swiper('.js_slider_item_product', {
-        lazy: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        loop: true,
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-    });
-}
-
-if (document.getElementsByClassName("slon__brands__slider").length) {
-    let swiperBrands = new Swiper('.slon__brands__slider', {
-        lazy: true,
-        navigation: {
-            nextEl: '.slon__brands__next',
-            prevEl: '.slon__brands__prev',
-        },
-        slidesPerView: 5,
-        //loop: true,
-        breakpoints: {
-            440: {
-                slidesPerView: 1,
-            },
-            768: {
-                slidesPerView: 3,
-            },
-            991: {
-                slidesPerView: 4,
-            },
-            1280: {
-                slidesPerView: 5,
-            },
+function countProduct(action, input) {
+    if (document.getElementById(input)) {
+        let count = parseInt(document.getElementById(input).value);
+        if (action == 'plus') {
+            document.getElementById(input).value = count + 1;
         }
-    });
-}
-
-if (document.getElementById("bannerSlider")) {
-    let swiperbannerSlider = new Swiper('#bannerSlider', {
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-}
-
-//alertify.error('Error message');
-
-function validateEmail(email) {
-    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-    var address = document.getElementById(email).value;
-    if (reg.test(address) == false) {
-        alertify.error('Введите корректный e-mail');
-        return false;
-    } else {
-        return true;
-    }
-}
-
-function validateCheckbox(checkbox) {
-    if (!document.getElementById(checkbox).checked) {
-        alertify.error('Вы должны ознакомится с политикой безопасности');
-        return false;
-    } else {
-        return true;
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function (event) {
-
-    if (document.getElementById("submitSubscription")) {
-        document.getElementById('submitSubscription').onclick = function () {
-            /**
-             * форма подписки
-             */
-            if (
-                validateEmail('emailSubscription') &&
-                validateCheckbox('politikaSubscription')
-            ) {
-                /**
-                 * тут аякс куда слать данные
-                 */
-                alertify.success('Success message');
-                document.getElementById('emailSubscription').value = '';
-            }
-            return false;
+        if (action == 'minus' && count > 1) {
+            document.getElementById(input).value = count * 1 - 1;
         }
     }
-
-    if (document.getElementById("submitSubscription2")) {
-        document.getElementById('submitSubscription2').onclick = function () {
-            /**
-             * форма подписки с акцией
-             */
-            if (
-                validateEmail('emailSubscription2') &&
-                validateCheckbox('politikaSubscription2')
-            ) {
-                /**
-                 * тут аякс куда слать данные
-                 */
-                alertify.success('Success message');
-                document.getElementById('emailSubscription2').value = '';
-            }
-            return false;
-        }
-    }
-
-
-    let filterItemBox = document.querySelectorAll('.smart-filter__item__title');
-    [].forEach.call(filterItemBox, function (elem) {
-        elem.addEventListener('click', function (e) {
-            this.parentNode.classList.toggle('smart-filter__item--active');
-        }, false);
-    });
-
-    if (document.getElementById("work_time")) {
-        document.getElementById('work_time').onclick = function (e) {
-            this.classList.toggle('is_active');
-
-        }
-    }
-});
-
-/**
- * при наведении на ссылку в выподающем меню в шапке
- * @param box
- * @param imgSrc
- * @param link
- * @param title
- */
-function hoverSubMenu(box, imgSrc, link, title) {
-    document.getElementById(box).innerHTML = "<a href='" + link + "'><div><img alt='" + title + "' src='" + imgSrc + "' /></div>" + title + "</a>";
 }
 
+function setEqualHeight(elements) {
+    var mainDivs = document.getElementsByClassName(elements);
+    var maxHeight = 0;
+    for (var i = 0; i < mainDivs.length; ++i) {
+        if (maxHeight < mainDivs[i].clientHeight) {
+            maxHeight = mainDivs[i].clientHeight;
+        }
+    }
+    for (var i = 0; i < mainDivs.length; ++i) {
+        mainDivs[i].style.height = maxHeight + "px";
+    }
+}
+
+window.onload = function() {
+
+
+
+}
+
+
+var wow = new WOW(
+    {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animate__animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+            //box.classList.add("animate__animated");
+            console.log('222');
+        },
+        scrollContainer: null,    // optional scroll container selector, otherwise use window,
+        resetAnimation: true,     // reset animation on end (default is true)
+    }
+);
+wow.init();

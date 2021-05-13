@@ -159,12 +159,12 @@
                 <div class="row">
                     <div class="margb30 col-sm-12 col-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--gaz align-items-center">
-                            <div class="voessen__promo-box__caption">Чистые газы</div>
+                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Чистые газы</div>
                         </a>
                     </div>
                     <div class="margb30 col-sm-12 col-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--smesi align-items-center">
-                            <div class="voessen__promo-box__caption">Газовые смеси</div>
+                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Газовые смеси</div>
                         </a>
                     </div>
                 </div>
@@ -172,33 +172,39 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="margb30">
                     <div class="voessen__promo-box voessen__promo-box--device flex-column">
-                        <div class="voessen__promo-box__caption">Оборудование</div>
-                        <ul class="nav flex-column voessen__promo-box__nav">
-                            <li><a href="">Баллонные редукторы</a></li>
-                            <li><a href="">Вентили точной регулировки</a></li>
-                            <li><a href="">Газовые панели, рампы</a></li>
-                            <li><a href="">Линейные регуляторы и точки отбора</a></li>
-                            <li><a href="">Баллоны и вентили</a></li>
-                            <li><a href="">Оборудование для сверхчистых газов 7.0</a></li>
-                            <li><a href="">Устройства безопасности</a></li>
-                            <li><a href="">Комплектующие</a></li>
-                            <li><a href="">Аксессуары</a></li>
-                            <li><a href="">Оборудование для медицинских газов</a></li>
-                        </ul>
+                        <div class="wow animate__fadeInUp">
+                            <div class="voessen__promo-box__caption">Оборудование</div>
+                            <ul class="nav flex-column voessen__promo-box__nav">
+                                <li><a href="">Баллонные редукторы</a></li>
+                                <li><a href="">Вентили точной регулировки</a></li>
+                                <li><a href="">Газовые панели, рампы</a></li>
+                                <li><a href="">Линейные регуляторы и точки отбора</a></li>
+                                <li><a href="">Баллоны и вентили</a></li>
+                                <li><a href="">Оборудование для сверхчистых газов 7.0</a></li>
+                                <li><a href="">Устройства безопасности</a></li>
+                                <li><a href="">Комплектующие</a></li>
+                                <li><a href="">Аксессуары</a></li>
+                                <li><a href="">Оборудование для медицинских газов</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="margb30">
                     <div class="voessen__promo-box voessen__promo-box--truba flex-column">
-                        <div class="voessen__promo-box__caption">Трубопроводы</div>
-                        <div class="voessen__promo-box__text">Проектируем, монтируем и обслуживаем трубопроводы для
-                            чистых и сверхчистых газов, системы технологического газоснабжения производств и лабораторий
-                            из области науки, микроэлектроники, фармацевтики, нефтяной, газовой, космической, химической
-                            отраслей и промышленных предприятий
-                        </div>
-                        <div class="tpad15">
-                            <a href="" class="voessen__btn-green">ПОДРОБНЕЕ</a>
+                        <div class="wow animate__fadeInUp">
+                            <div class="voessen__promo-box__caption">Трубопроводы</div>
+                            <div class="voessen__promo-box__text">Проектируем, монтируем и обслуживаем трубопроводы для
+                                чистых и сверхчистых газов, системы технологического газоснабжения производств и
+                                лабораторий
+                                из области науки, микроэлектроники, фармацевтики, нефтяной, газовой, космической,
+                                химической
+                                отраслей и промышленных предприятий
+                            </div>
+                            <div class="tpad15">
+                                <a href="" class="voessen__btn-green">ПОДРОБНЕЕ</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,6 +236,7 @@
                             </a>
                         </li>
                     </ul>
+                    <a href="" class="ml-auto voessen__more-link"><span>Все предложения</span></a>
                 </div>
             </div>
             <div class="tab-content">
@@ -243,8 +250,391 @@
                                         <a href="" class="voessen__item-product__img">
                                             <img
                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                    data-src="./img/t1.png"
-                                                    data-srcset="./img/t1@2.png 2x"
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row row--min">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value" id="countProduct">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct2">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct2')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct2')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct3">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct3')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct3')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct4">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct4')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct4')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct5">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct5')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct5')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct6">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct6')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct6')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next voessen__slider-product__nav">
+                                <svg width="25" height="13">
+                                    <use xlink:href="#svg-next"></use>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-prev voessen__slider-product__nav">
+                                <svg width="25" height="13">
+                                    <use xlink:href="#svg-prev"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                    <div class="voessen__wrap-slider">
+                        <div class="voessen__slider-product swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct11">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct11')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct11')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
                                                     class="swiper-lazy"
                                                     alt=""
                                             />
@@ -255,7 +645,7 @@
                                         </a>
                                         <div class="voessen__item-product__price">
                                             <span class="voessen__item-product__price__value">26 091 <span
-                                                    class="b-rub">Р</span></span>
+                                                        class="b-rub">Р</span></span>
                                             <span class="voessen__item-product__price__old-value">28 990 <span
                                                         class="b-rub">Р</span> / шт</span>
                                         </div>
@@ -264,16 +654,23 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="slon__product__count-box">
-                                                    <input type="text" value="1" readonly="" class="slon__product__count-box__value" id="countProduct">
-                                                    <button class="slon__product__count-box__nav slon__product__count-box__nav--minus" onclick="countProduct('minus', 'countProduct')">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct12">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct12')">
                                                     </button>
-                                                    <button class="slon__product__count-box__nav slon__product__count-box__nav--plus" onclick="countProduct('plus', 'countProduct')">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct12')">
                                                     </button>
                                                 </div>
                                             </div>
                                             <div class="col-6">
-                                                <button>
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
@@ -281,24 +678,220 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__value">26 091 <span
+                                                        class="b-rub">Р</span></span>
+                                            <span class="voessen__item-product__price__old-value">28 990 <span
+                                                        class="b-rub">Р</span> / шт</span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct13">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct13')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct13')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__value">26 091 <span
+                                                        class="b-rub">Р</span></span>
+                                            <span class="voessen__item-product__price__old-value">28 990 <span
+                                                        class="b-rub">Р</span> / шт</span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct14">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct14')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct14')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__value">26 091 <span
+                                                        class="b-rub">Р</span></span>
+                                            <span class="voessen__item-product__price__old-value">28 990 <span
+                                                        class="b-rub">Р</span> / шт</span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct15">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct15')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct15')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__value">26 091 <span
+                                                        class="b-rub">Р</span></span>
+                                            <span class="voessen__item-product__price__old-value">28 990 <span
+                                                        class="b-rub">Р</span> / шт</span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value"
+                                                           id="countProduct16">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct16')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct16')">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next slon__brands__next">
+                                <svg width="25" height="13">
+                                    <use xlink:href="#svg-next"></use>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-prev slon__brands__prev">
+                                <svg width="25" height="13">
+                                    <use xlink:href="#svg-prev"></use>
+                                </svg>
                             </div>
                         </div>
-                        <div class="swiper-button-next slon__brands__next">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.05 492">
-                                <path d="M281.2,226.8,62.25,7.86a27,27,0,0,0-38.06,0L8.06,24A27,27,0,0,0,8.06,62L191.92,245.9,7.86,430a27,27,0,0,0,0,38.07L24,484.14a27,27,0,0,0,38.07,0L281.2,265a27.16,27.16,0,0,0,0-38.2Z"/>
-                            </svg>
-                        </div>
-                        <div class="swiper-button-prev slon__brands__prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.05 492">
-                                <path d="M7.85,265.2l219,218.94a27,27,0,0,0,38.06,0L281,468A26.93,26.93,0,0,0,281,430L97.13,246.1,281.19,62a27,27,0,0,0,0-38.06L265.06,7.86a27,27,0,0,0-38.06,0L7.85,227a27.16,27.16,0,0,0,0,38.2Z"/>
-                            </svg>
-                        </div>
                     </div>
-
-                </div>
-                <div class="tab-pane fade" id="tab2">
-                    Характеристики товара...
                 </div>
                 <div class="tab-pane fade" id="tab3">
                     Отзывы...
@@ -307,6 +900,7 @@
         </div>
     </div>
 
+    <div class="container tpad85"></div>
 
     <footer class="slon__main__footer">
         <div class="container">

@@ -3733,28 +3733,10 @@ textarea.form-control-lg {
     pointer-events: none;
     cursor: default; }
 
-.nav-tabs {
-  border-bottom: 1px solid #dee2e6; }
-  .nav-tabs .nav-link {
-    margin-bottom: -1px;
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-      border-color: #e9ecef #e9ecef #dee2e6; }
-    .nav-tabs .nav-link.disabled {
-      color: #6c757d;
-      background-color: transparent;
-      border-color: transparent; }
-  .nav-tabs .nav-link.active,
-  .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff; }
-  .nav-tabs .dropdown-menu {
-    margin-top: -1px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0; }
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
 
 .nav-pills .nav-link {
   border-radius: 0.25rem; }
@@ -10888,7 +10870,8 @@ body {
   width: 24px;
   position: relative;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #0092d2; }
   .nav__shop li a .nav__shop__count {
     position: absolute;
     top: -10px;
@@ -11149,6 +11132,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   border-bottom: 2px solid #77c5e7; }
+  .voessen__more-link:hover {
+    color: #515151;
+    border-bottom-color: transparent; }
 
 a:hover {
   color: #0092d2; }
@@ -11294,4 +11280,240 @@ h2, .h2, .h2 {
 .b-rub, .b-rub_tahoma {
   font-family: 'ALSRubl-Tahoma', Tahoma, sans-serif;
   line-height: normal; }
+
+.voessen__wrap-slider {
+  margin: 0 -25px;
+  position: relative; }
+  .voessen__wrap-slider .swiper-slide {
+    padding: 5px 15px; }
+  .voessen__wrap-slider .voessen__slider-product {
+    padding: 0 10px; }
+
+.voessen__item-product {
+  background-color: #fff;
+  position: relative;
+  padding: 20px;
+  border: 1px solid #e6e6e6; }
+  .voessen__item-product .voessen__item-product__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 230px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+    position: relative; }
+    .voessen__item-product .voessen__item-product__img img {
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+      height: auto;
+      width: auto; }
+  .voessen__item-product .voessen__item-product__title {
+    height: 62px;
+    display: block;
+    overflow: hidden;
+    color: #0182ba;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none; }
+  .voessen__item-product .voessen__item-product__quantity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #525252;
+    font-size: 14px;
+    line-height: 16px;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    margin-bottom: 20px; }
+    .voessen__item-product .voessen__item-product__quantity b {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      font-weight: bold;
+      color: #000;
+      padding-left: 15px; }
+
+.voessen__item-product__price {
+  padding-bottom: 10px; }
+  .voessen__item-product__price .voessen__item-product__price__old-value {
+    display: block;
+    color: #c5c5c5;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: line-through; }
+  .voessen__item-product__price .voessen__item-product__price__value {
+    display: block;
+    color: #003d74;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800; }
+
+.voessen__product__count-box {
+  height: 50px;
+  position: relative;
+  border: 1px solid #e8e8e8;
+  padding-right: 25px;
+  overflow: hidden; }
+  .voessen__product__count-box .voessen__product__count-box__value {
+    padding: 0 10px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+    color: #000; }
+  .voessen__product__count-box .voessen__product__count-box__nav {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    right: -1px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #e8e8e8;
+    background-color: #e1e1e1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .voessen__product__count-box .voessen__product__count-box__nav::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      width: 8px;
+      height: 2px;
+      background-color: #000;
+      margin: -1px 0 0 -4px; }
+    .voessen__product__count-box .voessen__product__count-box__nav--plus {
+      top: -1px; }
+      .voessen__product__count-box .voessen__product__count-box__nav--plus::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        width: 2px;
+        height: 8px;
+        background-color: #000;
+        margin: -4px 0 0 -1px; }
+    .voessen__product__count-box .voessen__product__count-box__nav--minus {
+      bottom: -1px; }
+    .voessen__product__count-box .voessen__product__count-box__nav:hover {
+      background-color: #ccc; }
+
+.btn-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #36c38c;
+  width: 100%;
+  position: relative;
+  color: #fff; }
+  .btn-cart .btn-cart__icon {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: -140px;
+    margin-top: -12px;
+    margin-left: -12px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .btn-cart span {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    white-space: nowrap; }
+  .btn-cart:hover span {
+    margin-left: 200px; }
+  .btn-cart:hover .btn-cart__icon {
+    left: 50%; }
+
+.row.row--min {
+  margin-left: -10px;
+  margin-right: -10px; }
+  .row.row--min > div {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.nav-tabs {
+  margin-left: -10px; }
+  .nav-tabs li:not(:last-child) {
+    margin-right: 10px; }
+  .nav-tabs .nav-link {
+    padding: 5px 10px; }
+    .nav-tabs .nav-link.active {
+      background-color: #0092d2; }
+      .nav-tabs .nav-link.active span {
+        color: #fff;
+        border-bottom-color: transparent; }
+    .nav-tabs .nav-link:not(.active) span {
+      color: #000; }
+    .nav-tabs .nav-link span {
+      display: block;
+      font-size: 16px;
+      line-height: 1;
+      font-weight: bold;
+      border-bottom: 1px dashed #000; }
+
+.voessen__slider-product__nav {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(173, 173, 173, 0.5);
+          box-shadow: 0px 0px 10px 0px rgba(173, 173, 173, 0.5);
+  width: 47px;
+  height: 46px;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000; }
+
+.wow {
+  visibility: hidden; }
+  .wow.animate__animated {
+    visibility: visible; }
+
+.tpad85 {
+  padding-top: 85px; }
+
+.ml-auto {
+  margin-left: auto; }
+
 /*# sourceMappingURL=style.css.map */
