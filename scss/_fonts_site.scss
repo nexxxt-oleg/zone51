@@ -63,3 +63,18 @@
   font-weight: 800;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'ALSRubl-Tahoma';
+  src: url("../fonts/alsrubl-tahoma-regular.eot");
+  src: url("../fonts/alsrubl-tahoma-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/alsrubl-tahoma-regular.woff") format("woff"), url("../fonts/alsrubl-tahoma-regular.ttf") format("truetype"), url("../fonts/alsrubl-tahoma-regular.svg#ALSRublTahomaItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ALSRubl-Tahoma';
+  src: url("../fonts/alsrubl-tahoma-bold.eot");
+  src: url("../fonts/alsrubl-tahoma-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/alsrubl-tahoma-bold.woff") format("woff"), url("../fonts/alsrubl-tahoma-bold.ttf") format("truetype"), url("../fonts/alsrubl-tahoma-bold.svg#ALSRublTahomaItalic") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
