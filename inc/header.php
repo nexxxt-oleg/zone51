@@ -1,4 +1,4 @@
-<header class="voessen">
+<header class="voessen__header">
     <nav class="navbar voessen__header__nav-top">
         <div class="container">
             <div class="voessen__nav-top__wrap w-100">
@@ -43,7 +43,7 @@
     <aside class="voessen__header__middle">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 voessen__header__col-logo">
+                <div class="col-xl-5 col-lg-4 voessen__header__col-logo">
                     <a href="/" class="voessen__header__logo align-items-center d-flex">
                         <svg class="voessen__header__logo__icon" width="170" height="21">
                             <use xlink:href="#svg-logo"></use>
@@ -54,7 +54,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-lg-7 d-flex align-items-center voessen__header__col-right">
+                <div class="col-xl-7 col-lg-8 d-flex align-items-center voessen__header__col-right">
                     <div class="voessen__header__col-phone">
                         <div class="voessen__label">
                             Бесплатный звонок по РФ
@@ -302,8 +302,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Баллонные редукторы</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                                 <li><a href="">Клапаны</a></li>
@@ -316,8 +318,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Вентили точной регулировки</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -331,8 +335,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Баллоны и вентили</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -340,8 +346,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Оборудование для сверхчистых газов 7.0</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -349,8 +357,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Устройства безопасности</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -358,8 +368,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Комплектующие</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -367,8 +379,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Аксессуары</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -376,8 +390,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Оборудование для медицинских газов</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -402,8 +418,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Баллонные редукторы</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                                 <li><a href="">Клапаны</a></li>
@@ -416,8 +434,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Вентили точной регулировки</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -431,8 +451,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Баллоны и вентили</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -440,8 +462,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Оборудование для сверхчистых газов 7.0</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -449,8 +473,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Устройства безопасности</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -458,8 +484,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Комплектующие</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -467,8 +495,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Аксессуары</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -476,8 +506,10 @@
                                                         <li class="dropdown-menu__submenu">
                                                             <a href="">Оборудование для медицинских газов</a>
                                                             <ul class="nav d-block nav--sub-submenu">
-                                                                <li><a href="">Баллонные редукторы для расхода не выше 20 м3/час</a></li>
-                                                                <li><a href="">Газовые рампы (панели) для расхода не выше 20 м3/час</a></li>
+                                                                <li><a href="">Баллонные редукторы для расхода не выше
+                                                                        20 м3/час</a></li>
+                                                                <li><a href="">Газовые рампы (панели) для расхода не
+                                                                        выше 20 м3/час</a></li>
                                                                 <li><a href="">Линейные регуляторы</a></li>
                                                                 <li><a href="">Точки отбора</a></li>
                                                             </ul>
@@ -513,3 +545,88 @@
         </div>
     </div>
 </header>
+
+<div class="voessen__header-mob">
+    <div class="container">
+        <div class="voessen__header-mob__row">
+            <div class="voessen__header-mob__row__left">
+                <div class="voessen__header-mob__col-nav-open">
+                    <a href="#menu">
+                        <svg width="20" height="14">
+                            <use xlink:href="#svg-mob-nav-open"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="voessen__header-mob__col-search-open">
+                    <a href="#search">
+                        <svg width="20" height="20">
+                            <use xlink:href="#svg-search"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="voessen__header-mob__col-phone">
+                    <a href="tel:+74951280758">
+                        <svg width="20" height="20">
+                            <use xlink:href="#svg-phone"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="voessen__header-mob__row__center">
+                <a href="/" class="logo-mob">
+                    <svg width="80" height="10">
+                        <use xlink:href="#logo-footer"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="voessen__header-mob__row__right">
+                <ul class="nav nav__shop align-items-center w-100 justify-content-between">
+                    <li>
+                        <a href="">
+                            <svg class="voessen__header__logo__icon" width="20" height="20">
+                                <use xlink:href="#svg-fav"></use>
+                            </svg>
+                            <span class="nav__shop__count">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="voessen__header__logo__icon" width="20" height="20">
+                                <use xlink:href="#svg-cart"></use>
+                            </svg>
+                            <span class="nav__shop__count">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="voessen__header__logo__icon" width="15" height="20">
+                                <use xlink:href="#svg-user"></use>
+                            </svg>
+                            <span class="nav__shop__count nav__shop__count--empty"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav id="menu">
+        <div>112</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><span>About us</span>
+                <ul>
+                    <li><a href="#about/history">History</a></li>
+                    <li><span>The team</span>
+                        <ul>
+                            <li><a href="#about/team/management">Management</a></li>
+                            <li><a href="#about/team/sales">Sales</a></li>
+                            <li><a href="#about/team/development">Development</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about/address">Our address</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>

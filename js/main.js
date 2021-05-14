@@ -64,10 +64,29 @@ function setEqualHeight(elements) {
     }
 }
 
-window.onload = function() {
+if(window.screen.width < 991) {
+    var menu = new MmenuLight(
+        document.querySelector( '#menu' ),
+        'all'
+    );
 
+    var navigator = menu.navigation({
+        // selectedClass: 'Selected',
+        // slidingSubmenus: true,
+        // theme: 'dark',
+        // title: 'Menu'
+    });
 
+    var drawer = menu.offcanvas({
+        // position: 'left'
+    });
 
+    //	Open the menu.
+    document.querySelector( 'a[href="#menu"]' )
+        .addEventListener( 'click', evnt => {
+            evnt.preventDefault();
+            drawer.open();
+        });
 }
 
 
@@ -80,7 +99,6 @@ var wow = new WOW(
         live:         true,       // act on asynchronously loaded content (default is true)
         callback:     function(box) {
             //box.classList.add("animate__animated");
-            console.log('222');
         },
         scrollContainer: null,    // optional scroll container selector, otherwise use window,
         resetAnimation: true,     // reset animation on end (default is true)

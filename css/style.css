@@ -56,9 +56,9 @@ body {
   outline: 0 !important; }
 
 hr {
-  margin: 1rem 0;
+  margin: 15px 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: #e1e1e1;
   border: 0;
   opacity: 0.25; }
 
@@ -10725,6 +10725,10 @@ button.toast-close-button {
 body {
   font-family: 'Circe', sans-serif; }
 
+.voessen__main {
+  position: relative;
+  overflow: hidden; }
+
 .voessen__header__nav-top {
   border-bottom: 1px solid #e1e1e1; }
   .voessen__header__nav-top .voessen__nav-top__menu {
@@ -11005,7 +11009,8 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     border: none;
-    background-color: transparent; }
+    background-color: transparent;
+    color: #fff; }
 
 .voessen__home-slider {
   margin-bottom: 85px;
@@ -11309,10 +11314,19 @@ h2, .h2, .h2 {
     position: relative; }
     .voessen__item-product .voessen__item-product__img img {
       display: block;
-      min-height: 100%;
-      min-width: 100%;
+      max-height: 100%;
+      max-width: 100%;
       height: auto;
       width: auto; }
+  .voessen__item-product__fav {
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    color: #e1e1e1; }
+    .voessen__item-product__fav.active, .voessen__item-product__fav:hover {
+      color: #0092d2; }
   .voessen__item-product .voessen__item-product__title {
     height: 62px;
     display: block;
@@ -11515,5 +11529,323 @@ h2, .h2, .h2 {
 
 .ml-auto {
   margin-left: auto; }
+
+.voessen__baner {
+  padding: 60px 70px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+  .voessen__baner__desc {
+    color: #fff; }
+  .voessen__baner--home1 {
+    background-image: url("../img/baner_home1.jpg");
+    background-position: 50% 100%; }
+    .voessen__baner--home1 .voessen__baner__desc {
+      max-width: 700px; }
+  .voessen__baner__btn {
+    padding-top: 5px; }
+
+.text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300; }
+  .text p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-bottom: 15px; }
+  .text h3, .text .h3 {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 20px; }
+
+.fpad80 {
+  padding-bottom: 80px; }
+
+.voessen__number-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px; }
+  .voessen__number-box__number {
+    -ms-flex-preferred-size: 70px;
+        flex-basis: 70px;
+    width: 70px;
+    min-width: 70px;
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 80px;
+    color: #36c38c; }
+  .voessen__number-box__desc {
+    -ms-flex-preferred-size: 150px;
+        flex-basis: 150px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    .voessen__number-box__desc .voessen__number-box__caption {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1;
+      color: #000;
+      padding-bottom: 15px; }
+    .voessen__number-box__desc .voessen__number-box__text {
+      color: #525252;
+      font-size: 16px;
+      line-height: 18px; }
+
+.tpad50 {
+  padding-top: 50px; }
+
+.voessen__item-art {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  position: relative; }
+  .voessen__item-art img {
+    display: block;
+    position: relative;
+    z-index: 1; }
+  .voessen__item-art .voessen__item-art__wrap {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background: rgba(12, 35, 56, 0.3);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 35, 56, 0)), to(#0c2338));
+    background: linear-gradient(180deg, rgba(12, 35, 56, 0) 0%, #0c2338 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2338",endColorstr="#0c2338",GradientType=1); }
+  .voessen__item-art .voessen__item-art__title {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 15px; }
+  .voessen__item-art:hover {
+    color: #fff; }
+    .voessen__item-art:hover .voessen__item-art__title {
+      text-decoration: underline; }
+
+.voessen__date {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #0092d2;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold; }
+
+.voessen__subscribe {
+  padding: 50px 0;
+  background: #0088c2 url("../img/bg-subscr.png") 0 50% no-repeat;
+  background-size: 500px auto; }
+  .voessen__subscribe__title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3;
+    padding-bottom: 5px; }
+  .voessen__subscribe__text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300; }
+  .voessen__subscribe__form__col-inp {
+    -ms-flex-preferred-size: 200px;
+        flex-basis: 200px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    .voessen__subscribe__form__col-inp .form-control {
+      background-color: transparent;
+      border-bottom: 1px solid #77c1e1;
+      border-left: 1px solid #77c1e1;
+      border-top: 1px solid #77c1e1;
+      border-right: none;
+      color: #fff;
+      height: 50px;
+      font-size: 16px;
+      line-height: 50px;
+      padding: 0 15px;
+      border-radius: 0; }
+      .voessen__subscribe__form__col-inp .form-control::-webkit-input-placeholder {
+        color: #fff;
+        opacity: 1; }
+      .voessen__subscribe__form__col-inp .form-control:-ms-input-placeholder {
+        color: #fff;
+        opacity: 1; }
+      .voessen__subscribe__form__col-inp .form-control::-ms-input-placeholder {
+        color: #fff;
+        opacity: 1; }
+      .voessen__subscribe__form__col-inp .form-control::placeholder {
+        color: #fff;
+        opacity: 1; }
+  .voessen__subscribe__form__col-submit {
+    -ms-flex-preferred-size: 200px;
+        flex-basis: 200px; }
+  .voessen__subscribe__form__ps {
+    padding: 5px 0 0 15px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px; }
+    .voessen__subscribe__form__ps a {
+      color: #fff;
+      text-decoration: underline; }
+
+.voessen__footer {
+  padding-top: 75px; }
+
+.nav--footer {
+  padding-bottom: 40px; }
+  .nav--footer li {
+    padding-bottom: 15px; }
+    .nav--footer li a {
+      font-size: 16px;
+      line-height: 24px;
+      color: #515151;
+      text-decoration: none; }
+      .nav--footer li a:hover {
+        color: #0092d2; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.voessen__footer__col-phone {
+  padding-bottom: 30px; }
+  .voessen__footer__col-phone .tel {
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none; }
+
+.nav--footer-soc {
+  padding-top: 10px; }
+  .nav--footer-soc li {
+    padding-right: 20px; }
+    .nav--footer-soc li a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-color: #e6f7ff;
+      color: #0092d2;
+      width: 48px;
+      height: 48px; }
+      .nav--footer-soc li a svg {
+        display: block; }
+      .nav--footer-soc li a:hover {
+        background-color: #0092d2;
+        color: #e6f7ff; }
+
+.voessen__footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 30px; }
+  .voessen__footer__bottom .voessen__footer__logo {
+    display: block;
+    margin-right: 70px; }
+  .voessen__footer__bottom .voessen__footer__copy {
+    padding: 5px 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 18px; }
+
+.voessen__header-mob {
+  display: none; }
+
+@media screen and (max-width: 1199px) {
+  .voessen__header__col-logo .voessen__header__logo {
+    display: block !important; }
+    .voessen__header__col-logo .voessen__header__logo .voessen__header__logo__slogan {
+      padding: 15px 0 0 0; }
+      .voessen__header__col-logo .voessen__header__logo .voessen__header__logo__slogan::after {
+        display: none; }
+
+  .voessen__header__main-nav .navbar-nav--main > .nav-item > .nav-link {
+    font-size: 12px; }
+
+  .voessen__box-ico {
+    padding: 0; } }
+@media screen and (max-width: 991px) {
+  .voessen__header {
+    display: none; }
+
+  .voessen__header-mob {
+    display: block;
+    padding: 10px 0; }
+
+  .voessen__header-mob__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .voessen__header-mob__row__left,
+  .voessen__header-mob__row__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  .voessen__header-mob__row__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-preferred-size: 34%;
+        flex-basis: 34%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .voessen__header-mob__row__left a {
+    color: #0092d2; }
+
+  .voessen__header-mob__row__right .nav__shop li a .nav__shop__count {
+    top: 0; }
+    .voessen__header-mob__row__right .nav__shop li a .nav__shop__count.nav__shop__count--empty {
+      margin-top: 2px; }
+
+  .voessen__right-border {
+    border-right: none; }
+
+  .voessen__promo-box {
+    padding: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

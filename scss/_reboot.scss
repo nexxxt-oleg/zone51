@@ -77,9 +77,9 @@ body {
 // 2. Set correct height and prevent the `size` attribute to make the `hr` look like an input field
 
 hr {
-  margin: $hr-margin-y 0;
+  margin: 15px 0;
   color: $hr-color; // 1
-  background-color: currentColor;
+  background-color: #e1e1e1;
   border: 0;
   opacity: $hr-opacity;
 }

@@ -1,0 +1,63 @@
+.voessen__header-mob {
+  display: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .voessen__header__col-logo .voessen__header__logo {
+    display: block !important;
+    .voessen__header__logo__slogan {
+      padding: 15px 0 0 0;
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .voessen__header__main-nav .navbar-nav--main > .nav-item > .nav-link {
+    font-size: 12px;
+  }
+  .voessen__box-ico {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .voessen__header {
+    display: none;
+  }
+  .voessen__header-mob {
+    display: block;
+    padding: 10px 0;
+  }
+  .voessen__header-mob__row {
+    display: flex;
+    align-items: center;
+  }
+  .voessen__header-mob__row__left,
+  .voessen__header-mob__row__right {
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+    justify-content: space-between;
+  }
+  .voessen__header-mob__row__center {
+    display: flex;
+    align-items: center;
+    flex-basis: 34%;
+    justify-content: center;
+  }
+  .voessen__header-mob__row__left a {
+    color: #0092d2;
+  }
+  .voessen__header-mob__row__right .nav__shop li a .nav__shop__count {
+    top: 0;
+    &.nav__shop__count--empty {
+      margin-top: 2px;
+    }
+  }
+  .voessen__right-border {
+    border-right: none;
+  }
+  .voessen__promo-box {
+    padding: 20px;
+  }
+}

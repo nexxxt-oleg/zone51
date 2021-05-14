@@ -13,8 +13,6 @@
     <?php
     include_once __DIR__ . '/inc/header.php'
     ?>
-
-
     <aside class="voessen__home-slider">
         <div class="swiper-container" id="sliderHome">
             <div class="swiper-wrapper">
@@ -99,7 +97,7 @@
 
     <div class="container">
         <div class="row fpad50">
-            <div class="col-lg-3 margb30 voessen__right-border">
+            <div class="col-lg-3 col-sm-6 margb30 voessen__right-border">
                 <div class="voessen__box-ico">
                     <div class="voessen__box-ico__img">
                         <svg width="23" height="36">
@@ -112,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 margb30 voessen__right-border">
+            <div class="col-lg-3 col-sm-6 margb30 voessen__right-border">
                 <div class="voessen__box-ico">
                     <div class="voessen__box-ico__img">
                         <svg width="24" height="30">
@@ -125,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 margb30 voessen__right-border">
+            <div class="col-lg-3 col-sm-6 margb30 voessen__right-border">
                 <div class="voessen__box-ico">
                     <div class="voessen__box-ico__img">
                         <svg width="52" height="30">
@@ -138,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 margb30">
+            <div class="col-lg-3 col-sm-6 margb30">
                 <div class="voessen__box-ico">
                     <div class="voessen__box-ico__img">
                         <svg width="33" height="36">
@@ -155,21 +153,25 @@
             </div>
         </div>
         <div class="row fpad50">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-12">
                 <div class="row">
                     <div class="margb30 col-sm-12 col-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--gaz align-items-center">
-                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Чистые газы</div>
+                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Чистые
+                                газы
+                            </div>
                         </a>
                     </div>
                     <div class="margb30 col-sm-12 col-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--smesi align-items-center">
-                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Газовые смеси</div>
+                            <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Газовые
+                                смеси
+                            </div>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-sm-6">
                 <div class="margb30">
                     <div class="voessen__promo-box voessen__promo-box--device flex-column">
                         <div class="wow animate__fadeInUp">
@@ -190,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-sm-6">
                 <div class="margb30">
                     <div class="voessen__promo-box voessen__promo-box--truba flex-column">
                         <div class="wow animate__fadeInUp">
@@ -247,6 +249,11 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__fav">
+                                            <svg width="24" height="23">
+                                                <use xlink:href="#svg-fav"></use>
+                                            </svg>
+                                        </a>
                                         <a href="" class="voessen__item-product__img">
                                             <img
                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -298,6 +305,11 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__fav">
+                                            <svg width="24" height="23">
+                                                <use xlink:href="#svg-fav"></use>
+                                            </svg>
+                                        </a>
                                         <a href="" class="voessen__item-product__img">
                                             <img
                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -350,6 +362,11 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="voessen__item-product">
+                                        <a href="" class="voessen__item-product__fav">
+                                            <svg width="24" height="23">
+                                                <use xlink:href="#svg-fav"></use>
+                                            </svg>
+                                        </a>
                                         <a href="" class="voessen__item-product__img">
                                             <img
                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -894,177 +911,257 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab3">
-                    Отзывы...
+                    3
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container tpad85"></div>
+    <div class="container tpad85">
+        <div class="row">
+            <div class="col-12 fpad80">
+                <div class="voessen__baner voessen__baner--home1">
+                    <div class="voessen__baner__desc text wow animate__fadeInRight">
+                        <h3>Вы представитель бюджетного учреждения?</h3>
+                        <p>Мы особенно поддерживаем научную и исследовательскую деятельность в России, поэтому с
+                            пристальным вниманием помогаем государственным бюджетным учреждениям в подборе и поставке
+                            газов и оборудования для их применения под специальные и нестандартные задачи и разработали
+                            специальные условия оплаты продукции.</p>
+                        <div class="voessen__baner__btn">
+                            <a href="" class="voessen__btn-green">Связаться с менеджером</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row fpad30">
+            <div class="col-lg-4 col-xl-3">
+                <h2 class="h2">Распродажа</h2>
+            </div>
+            <div class="col-lg-8 col-xl-9 d-flex align-items-center">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#tab_ur">
+                            <span>с Юридическими лицами</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab_fiz">
+                            <span>с Физическими лицами</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab_ur">
+                <div class="row fpad50">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                1
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Регистрация</div>
+                                <div class="voessen__number-box__text">Зарегистрируйтесь и получите доступ ко всем
+                                    возможностям портала.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                2
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Оформление заказа</div>
+                                <div class="voessen__number-box__text">Быстро и удобно через личный кабинет.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                3
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Оплата</div>
+                                <div class="voessen__number-box__text">Оплачивайте заказ удобным для вас способом.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                4
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Доставка</div>
+                                <div class="voessen__number-box__text">Мы осуществляем безопасную доставку продукции по
+                                    всему миру.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab_fiz">
+                <div class="row fpad50">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                1
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Регистрация</div>
+                                <div class="voessen__number-box__text">Зарегистрируйтесь и получите доступ ко всем
+                                    возможностям портала.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                2
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Оформление заказа</div>
+                                <div class="voessen__number-box__text">Быстро и удобно через личный кабинет.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                3
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Оплата</div>
+                                <div class="voessen__number-box__text">Оплачивайте заказ удобным для вас способом.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="voessen__number-box">
+                            <div class="voessen__number-box__number">
+                                4
+                            </div>
+                            <div class="voessen__number-box__desc">
+                                <div class="voessen__number-box__caption">Доставка</div>
+                                <div class="voessen__number-box__text">Мы осуществляем безопасную доставку продукции по
+                                    всему миру.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row tpad50 fpad30">
+            <div class="col-lg-4 col-xl-3">
+                <h2 class="h2">Статьи</h2>
+            </div>
+            <div class="col-lg-8 col-xl-9 d-flex align-items-center">
+                <a href="" class="ml-auto voessen__more-link"><span>Все статьи</span></a>
+            </div>
+        </div>
+        <div class="fpad50 row">
+            <div class="col-lg-4 col-sm-6 fpad30">
+                <a href="" class="voessen__item-art">
+                    <img
+                            src="./img/art1.jpg"
+                            data-src="./img/art1.jpg"
+                            data-srcset="./img/art1@2.jpg 2x"
+                            class="voessen__item-art__img"
+                            alt=""
+                    />
+                    <div class="voessen__item-art__wrap wow animate__fadeIn">
+                        <div class="voessen__item-art__title">
+                            Применение манометров для безопасной эксплуатации газовых баллонов
+                        </div>
+                        <div class="voessen__item-art__date">
+                            <span class="voessen__date">20 марта 2021</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 fpad30">
+                <a href="" class="voessen__item-art">
+                    <img
+                            src="./img/art1.jpg"
+                            data-src="./img/art1.jpg"
+                            data-srcset="./img/art1@2.jpg 2x"
+                            class="voessen__item-art__img"
+                            alt=""
+                    />
+                    <div class="voessen__item-art__wrap wow animate__fadeIn">
+                        <div class="voessen__item-art__title">
+                            Применение манометров для безопасной эксплуатации газовых баллонов
+                        </div>
+                        <div class="voessen__item-art__date">
+                            <span class="voessen__date">20 марта 2021</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 fpad30">
+                <a href="" class="voessen__item-art">
+                    <img
+                            src="./img/art1.jpg"
+                            data-src="./img/art1.jpg"
+                            data-srcset="./img/art1@2.jpg 2x"
+                            class="voessen__item-art__img"
+                            alt=""
+                    />
+                    <div class="voessen__item-art__wrap wow animate__fadeIn">
+                        <div class="voessen__item-art__title">
+                            Применение манометров для безопасной эксплуатации газовых баллонов
+                        </div>
+                        <div class="voessen__item-art__date">
+                            <span class="voessen__date">20 марта 2021</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <footer class="slon__main__footer">
+    <aside class="voessen__subscribe">
         <div class="container">
-            <div class="row fpad30">
+            <div class="row">
+                <div class="col-lg-5 fpad15">
+                    <div class="voessen__subscribe__title">Больше преимуществ для вас!</div>
+                    <div class="voessen__subscribe__text">Будьте в курсе наших новинок и распродаж</div>
+                </div>
                 <div class="col-lg-7">
-                    <nav class="nav flex-column nav--catalog-footer">
-                        <li>
-                            <a href="">
-                                <span>Игровые кресла и столы</span>
-                            </a>
-                            <ul class="nav nav--sub-catalog">
-                                <li><a href="">Компьютерные кресла</a></li>
-                                <li><a href="">Компьютерные столы</a></li>
-                                <li><a href="">Симуляторы</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span>Игровая периферия</span>
-                            </a>
-                            <ul class="nav nav--sub-catalog">
-                                <li><a href="">Мыши</a></li>
-                                <li><a href="">Гарнитуры</a></li>
-                                <li><a href="">Клавиатуры</a></li>
-                                <li><a href="">Коврики и бункеры</a></li>
-                                <li><a href="">Наборы</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span>Комплектующие для игровых ПК</span>
-                            </a>
-                            <ul class="nav nav--sub-catalog">
-                                <li><a href="">Блоки питания ПК</a></li>
-                                <li><a href="">Корпуса для ПК</a></li>
-                                <li><a href="">Системы охлаждения ПК</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span>АКЦИИ<i class="ico-action">%</i></span>
-                            </a>
-                        </li>
-                    </nav>
-                </div>
-                <div class="col-lg-5">
-                    <ul class="nav nav--footer-menu row">
-                        <li class="col-6">
-                            <a href="">О магазине</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Новости</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Доставка и оплата</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Статьи</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Гарантия и возврат</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Задайте вопрос</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Бренды</a>
-                        </li>
-                        <li class="col-6">
-                            <a href="">Контакты</a>
-                        </li>
-                    </ul>
-                    <aside class="slon__main__footer__info">
-                        <a href="tel:88007005829" class="tel">8-800-700-58-29</a>
-                        <a href="mailto:hi@kiberslon.ru" class="email">hi@kiberslon.ru</a>
-                        <span class="address">г. Москва, ул. Маршала Прошлякова, д. 30</span>
-                    </aside>
-                </div>
-            </div>
-            <div class="row align-items-center fpad60">
-                <div class="col-lg-7">
-                    <a href="/">
-                        <img class="slon__main__footer__logo" alt="" src="./img/svg/logo.svg"/>
-                    </a>
-                </div>
-                <div class="col-lg-5">
-                    <ul class="nav align-items-center nav--soc">
-                        <li>
-                            <a href="" target="_blank">
-                                <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
-                                    <path style="fill: #3a589a;"
-                                          d="M111.63,140H0V28.37L28.37,0H140V111.63ZM9.33,130.67h98.43l22.91-22.91V9.33H32.24L9.33,32.24Z"/>
-                                    <path style="fill: #3a589a;"
-                                          d="M88.48,33H78.87c-10.8,0-17.78,7.16-17.78,18.24v8.41H51.43a1.51,1.51,0,0,0-1.51,1.51V73.29a1.51,1.51,0,0,0,1.51,1.51h9.66v30.75a1.51,1.51,0,0,0,1.51,1.51H75.21a1.51,1.51,0,0,0,1.52-1.51V74.8H88a1.52,1.52,0,0,0,1.51-1.51V61.1A1.54,1.54,0,0,0,89.1,60,1.52,1.52,0,0,0,88,59.59H76.73V52.46c0-3.43.81-5.17,5.28-5.17h6.47A1.51,1.51,0,0,0,90,45.78V34.46A1.51,1.51,0,0,0,88.48,33Z"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
-                                    <path style="fill: #4b75a3;"
-                                          d="M111.63,140H0V28.37L28.37,0H140V111.63ZM9.33,130.67h98.43l22.91-22.91V9.33H32.24L9.33,32.24Z"/>
-                                    <path style="fill: #4b75a3;"
-                                          d="M96.73,75.7A100,100,0,0,1,104,83a20.58,20.58,0,0,1,2.6,3.75c1,1.94.1,4.07-1.64,4.18H94.15a8.35,8.35,0,0,1-6.87-2.79C85.78,86.61,84.4,85,83,83.42A10.28,10.28,0,0,0,81,81.69a2.26,2.26,0,0,0-3.6.87,11.44,11.44,0,0,0-1.14,5c-.11,2.54-.88,3.21-3.44,3.33a27.65,27.65,0,0,1-15.45-3.32A34.15,34.15,0,0,1,47,77.87,130.63,130.63,0,0,1,33.31,53.48c-.86-1.92-.23-2.95,1.89-3,3.52-.07,7-.06,10.57,0a3.14,3.14,0,0,1,2.94,2.2A64.94,64.94,0,0,0,55.87,66a11.29,11.29,0,0,0,2.71,3c1.25.86,2.2.58,2.79-.82A8.9,8.9,0,0,0,62,65.33a41.38,41.38,0,0,0-.17-9.76,4.08,4.08,0,0,0-3.46-3.73c-1-.19-.88-.58-.38-1.17A3.89,3.89,0,0,1,61.29,49h12.2c1.92.37,2.35,1.24,2.61,3.17l0,13.56c0,.75.37,3,1.72,3.46,1.08.36,1.79-.51,2.43-1.19a42.1,42.1,0,0,0,6.88-10.56c.82-1.67,1.53-3.41,2.22-5.14a2.63,2.63,0,0,1,2.76-1.89h11.75a6,6,0,0,1,1,.07c2,.33,2.52,1.19,1.91,3.12-1,3-2.84,5.56-4.67,8.1-2,2.71-4.06,5.32-6,8.05-1.79,2.49-1.64,3.75.57,5.91Z"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg"
-                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 140 140">
-                                    <defs>
-                                        <linearGradient id="gr_2" data-name="Безымянный градиент 2" x1="-2.95" y1="70"
-                                                        x2="150.06" y2="70" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#ffc107"/>
-                                            <stop offset="0.51" stop-color="#f44336"/>
-                                            <stop offset="0.99" stop-color="#9c27b0"/>
-                                        </linearGradient>
-                                        <linearGradient id="gr_2-3" x1="-2.95" y1="70" x2="150.06" y2="70"
-                                                        xlink:href="#gr_2"/>
-                                        <linearGradient id="gr_2-4" x1="-2.95" y1="50.15" x2="150.06" y2="50.15"
-                                                        xlink:href="#gr_2"/>
-                                    </defs>
-
-                                    <path class="cls-1" fill="url(#gr_2)"
-                                          d="M111.63,140H0V28.37L28.37,0H140V111.63ZM9.33,130.67h98.43l22.91-22.91V9.33H32.24L9.33,32.24Z"/>
-                                    <g>
-                                        <path class="cls-1" fill="url(#gr_2)"
-                                              d="M86.65,32.94H53.44A20.48,20.48,0,0,0,33,53.39V86.61a20.48,20.48,0,0,0,20.46,20.45H86.65a20.48,20.48,0,0,0,20.46-20.45V53.39A20.48,20.48,0,0,0,86.65,32.94Zm13.88,53.67a13.89,13.89,0,0,1-13.88,13.88H53.44A13.9,13.9,0,0,1,39.56,86.61V53.39A13.9,13.9,0,0,1,53.44,39.51H86.65a13.89,13.89,0,0,1,13.88,13.88V86.61Z"/>
-                                        <path class="cls-2" fill="url(#gr_2-3)"
-                                              d="M70.05,50.9A19.1,19.1,0,1,0,89.15,70,19.12,19.12,0,0,0,70.05,50.9Zm0,31.62A12.52,12.52,0,1,1,82.57,70,12.53,12.53,0,0,1,70.05,82.52Z"/>
-                                        <path class="cls-3" fill="url(#gr_2-4)"
-                                              d="M90,45.32a4.83,4.83,0,1,0,3.41,1.42A4.86,4.86,0,0,0,90,45.32Z"/>
-                                    </g>
-                                </svg>
-
-                            </a>
-                        </li>
-                    </ul>
+                    <form action="">
+                        <div class="voessen__subscribe__form">
+                            <div class="d-flex">
+                                <div class="voessen__subscribe__form__col-inp">
+                                    <input type="email" placeholder="Укажите ваш E-mail" class="form-control">
+                                </div>
+                                <div class="voessen__subscribe__form__col-submit">
+                                    <button type="submit" class="voessen__btn-green w-100">Получить</button>
+                                </div>
+                            </div>
+                            <div class="voessen__subscribe__form__ps">
+                                Нажимая на кнопку «Получить», вы соглашаетесь с условиями <a href="" target="_blank">Политики конфиденциальности</a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="slon__main__footer__bottom">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <span class="copy">© 2021 KIBERSLON. Все права защищены.</span>
-                    </div>
-                    <div class="col-lg-5">
-                        <ul class="nav nav--bottom">
-                            <li><a href="">Политика конфиденциальности</a></li>
-                            <li><a href="">Публичная оферта</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
+    </aside>
+
 <?php
 include_once __DIR__ . '/inc/footer.php';
 include_once __DIR__ . '/inc/sprite.php';
 ?>
 
-
+</div>
 </body>
 </html>
