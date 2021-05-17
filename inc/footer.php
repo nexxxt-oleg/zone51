@@ -50,7 +50,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 col-xl-3 offset-lg-0 offset-xl-1">
+            <div class="col-lg-4 col-xl-3 offset-lg-0 offset-xl-1 voessen__footer__contacts">
                 <div class="voessen__footer__col-phone">
                     <div class="voessen__label">
                         Для звонков по Москве
@@ -75,14 +75,14 @@
                 <ul class="nav nav--footer-soc">
                     <li>
                         <a href="" target="_blank" class="nav--footer-soc__item">
-                            <svg  width="13" height="24">
+                            <svg width="13" height="24">
                                 <use xlink:href="#svg-face"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
                         <a href="" target="_blank" class="nav--footer-soc__item">
-                            <svg  width="24" height="24">
+                            <svg width="24" height="24">
                                 <use xlink:href="#svg-inst"></use>
                             </svg>
                         </a>
@@ -101,7 +101,172 @@
         </div>
     </div>
 </footer>
-
+<div class="mobile-nav">
+    <nav id="menu">
+        <div class="mobile-nav__title">
+            <a id="closeNav"  class="mobile-nav__close">
+                <svg width="20" height="20">
+                    <use xlink:href="#svg-close"></use>
+                </svg>
+            </a>
+            <a href="" class="mobile-nav__logo">
+                <svg class="mobile-nav__logo__icon" width="80" height="10">
+                    <use xlink:href="#logo-footer"></use>
+                </svg>
+            </a>
+        </div>
+        <ul>
+            <li>
+                <span>Чистые газы</span>
+                <ul>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>N<sub>2</sub></b> Азот
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>NH<sub>3</sub></b> Аммиак
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>Ar</b> Аргон
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>C<sub>2</sub>H<sub>2</sub></b> Ацетилен
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>C<sub>4</sub>H<sub>10</sub></b> н-Бутан
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>C<sub>4</sub>H<sub>10</sub></b> изо-Бутан
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>H<sub>2</sub></b> Водород
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>He</b> Гелий
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>NO<sub>2</sub></b> Диоксид азота
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>N<sub>2</sub>O</b> Закись азота
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>С<sub>4</sub>H<sub>8</sub></b> изо-Бутилен
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>O<sub>2</sub></b> Кислород
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>Kr</b> Криптон
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>Xe</b> Ксенон
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>CH<sub>4</sub></b> Метан
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>CO</b> Монооксид углерода
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>SiH<sub>4</sub></b> Моносилан
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>Ne</b> Неон
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>C<sub>3</sub>H<sub>8</sub></b> Пропан
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-nav__item-chemistry">
+                            <b>C<sub>3</sub>H<sub>8</sub></b> Пaропилен
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><span>Газовые смеси</span>
+                <ul>
+                    <li>
+                        <span>Баллонные редукторы</span>
+                        <ul>
+                            <li><a href="">Баллонные редукторы для расхода не выше
+                                    20 м3/час</a></li>
+                            <li><a href="">Газовые рампы (панели) для расхода не
+                                    выше 20 м3/час</a></li>
+                            <li><a href="">Линейные регуляторы</a></li>
+                            <li><a href="">Точки отбора</a></li>
+                            <li><a href="">Клапаны</a></li>
+                            <li><a href="">Регуляторы расхода</a></li>
+                            <li><a href="">Расходомеры</a></li>
+                            <li><a href="">Предохранительные устройства</a></li>
+                            <li><a href="">Фильтры дополнительной очистки</a></li>
+                        </ul>
+                    </li>
+                    <li><span>Вентили точной регулировки</span>
+                        <ul>
+                            <li><a href="">Баллонные редукторы для расхода не выше
+                                    20 м3/час</a></li>
+                            <li><a href="">Газовые рампы (панели) для расхода не
+                                    выше 20 м3/час</a></li>
+                            <li><a href="">Линейные регуляторы</a></li>
+                            <li><a href="">Точки отбора</a></li>
+                            <li><a href="">Клапаны</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about/address">Баллоны и вентили</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Оборудование</a></li>
+            <li><a href="#contact">Распродажа</a></li>
+            <li><a href="#contact">Трубопроводы</a></li>
+            <li><a href="#contact">Аренда баллонов</a></li>
+            <li><a href="#contact">О компании</a></li>
+            <li><a href="#contact">Юридическая информация</a></li>
+            <li><a href="#contact">Оплата и доставка</a></li>
+            <li><a href="#contact">Участвуем в госзакупках</a></li>
+            <li><a href="#contact">Часто задаваемые вопросы </a></li>
+            <li><a href="#contact">Статьи</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</div>
 <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/lib.js"></script>

@@ -22,12 +22,19 @@ if (document.getElementsByClassName("voessen__slider-product").length) {
         observer: true,
         observeParents: true,
         //loop: true,
-        simulateTouch: false,
+        //simulateTouch: false,
         breakpoints: {
-            440: {
-                slidesPerView: 1,
+            300: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                simulateTouch: true,
             },
-            768: {
+            440: {
+                slidesPerView: 2,
+                centeredSlides: true,
+                simulateTouch: true,
+            },
+            600: {
                 slidesPerView: 2,
             },
             991: {
@@ -87,6 +94,10 @@ if(window.screen.width < 991) {
             evnt.preventDefault();
             drawer.open();
         });
+    document.getElementById('closeNav').addEventListener( 'click', evnt => {
+        evnt.preventDefault();
+        drawer.close();
+    });
 }
 
 

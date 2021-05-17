@@ -46,9 +46,15 @@
                             background-image: url("./img/bg1.jpg");
                         }
 
-                        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+                        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 769px) {
                             .voessen__home-slider__item--sl1 {
                                 background-image: url("./img/bg1@2.jpg");
+                            }
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            .voessen__home-slider__item--sl1 {
+                                background-image: url("./img/bg1_mob.jpg");
                             }
                         }
                     </style>
@@ -83,9 +89,15 @@
                             background-image: url("./img/bg1.jpg");
                         }
 
-                        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+                        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 769px) {
                             .voessen__home-slider__item--sl2 {
                                 background-image: url("./img/bg1@2.jpg");
+                            }
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            .voessen__home-slider__item--sl2 {
+                                background-image: url("./img/bg1_mob.jpg");
                             }
                         }
                     </style>
@@ -155,14 +167,14 @@
         <div class="row fpad50">
             <div class="col-xl-4 col-lg-12">
                 <div class="row">
-                    <div class="margb30 col-sm-12 col-6">
+                    <div class="margb30 col-lg-12 col-sm-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--gaz align-items-center">
                             <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Чистые
                                 газы
                             </div>
                         </a>
                     </div>
-                    <div class="margb30 col-sm-12 col-6">
+                    <div class="margb30 col-lg-12 col-sm-6">
                         <a href="" class="voessen__promo-box voessen__promo-box--smesi align-items-center">
                             <div class="voessen__promo-box__caption wow animate__animated animate__fadeInUp">Газовые
                                 смеси
@@ -216,11 +228,11 @@
 
     <div class="voessen__silver">
         <div class="container">
-            <div class="row fpad30">
-                <div class="col-lg-4 col-xl-3">
+            <div class="row fpad30 align-items-center voessen__header-caption">
+                <div class="col-lg-4 col-xl-3 col-6 voessen__header-caption__col-title">
                     <h2 class="h2">Распродажа</h2>
                 </div>
-                <div class="col-lg-8 col-xl-9 d-flex align-items-center">
+                <div class="col-lg-6 col-xl-7 d-flex align-items-center voessen__header-caption__col-tabs">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#tab1">
@@ -238,7 +250,12 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="" class="ml-auto voessen__more-link"><span>Все предложения</span></a>
+
+                </div>
+                <div class="col-lg-2 col-xl-2 d-flex col-6 voessen__header-caption__col-more-link">
+                    <div class="ml-auto">
+                        <a href="" class=" voessen__more-link"><span>Все предложения</span></a>
+                    </div>
                 </div>
             </div>
             <div class="tab-content">
@@ -247,6 +264,65 @@
                     <div class="voessen__wrap-slider">
                         <div class="voessen__slider-product swiper-container">
                             <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="voessen__item-product">
+
+                                        <a href="" class="voessen__item-product__img">
+                                            <img
+                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                    data-src="./img/t1.jpg"
+                                                    data-srcset="./img/t1@2.jpg 2x"
+                                                    class="swiper-lazy"
+                                                    alt=""
+                                            />
+                                            <div class="swiper-lazy-preloader"></div>
+                                        </a>
+                                        <a href="" class="voessen__item-product__title">
+                                            Редуктор для чистых газов GCE Druva FMD 510-14
+                                        </a>
+                                        <div class="voessen__item-product__price">
+                                            <span class="voessen__item-product__price__old-value">
+                                                26 091 <span class="b-rub">Р</span>
+                                            </span>
+                                            <span class="voessen__item-product__price__value">
+                                                28 990 <span class="b-rub">Р</span> / шт
+                                            </span>
+                                        </div>
+                                        <div class="voessen__item-product__quantity">
+                                            Осталось: <b>10 шт</b>
+                                        </div>
+                                        <div class="row row--min">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
+                                                <div class="voessen__product__count-box">
+                                                    <input type="text" value="1" readonly=""
+                                                           class="voessen__product__count-box__value" id="countProduct">
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
+                                                            onclick="countProduct('minus', 'countProduct')">
+                                                    </button>
+                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
+                                                            onclick="countProduct('plus', 'countProduct')">
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
+                                                <button class="btn-cart">
+                                                    <svg class="btn-cart__icon" width="24" height="24">
+                                                        <use xlink:href="#svg-cart"></use>
+                                                    </svg>
+                                                    <span>В корзину</span>
+                                                </button>
+                                            </div>
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="voessen__item-product">
                                         <a href="" class="voessen__item-product__fav">
@@ -279,67 +355,10 @@
                                             Осталось: <b>10 шт</b>
                                         </div>
                                         <div class="row row--min">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
                                                 <div class="voessen__product__count-box">
                                                     <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value" id="countProduct">
-                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
-                                                            onclick="countProduct('minus', 'countProduct')">
-                                                    </button>
-                                                    <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus"
-                                                            onclick="countProduct('plus', 'countProduct')">
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <button class="btn-cart">
-                                                    <svg class="btn-cart__icon" width="24" height="24">
-                                                        <use xlink:href="#svg-cart"></use>
-                                                    </svg>
-                                                    <span>В корзину</span>
-                                                </button>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="voessen__item-product">
-                                        <a href="" class="voessen__item-product__fav">
-                                            <svg width="24" height="23">
-                                                <use xlink:href="#svg-fav"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="" class="voessen__item-product__img">
-                                            <img
-                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                    data-src="./img/t1.jpg"
-                                                    data-srcset="./img/t1@2.jpg 2x"
-                                                    class="swiper-lazy"
-                                                    alt=""
-                                            />
-                                            <div class="swiper-lazy-preloader"></div>
-                                        </a>
-                                        <a href="" class="voessen__item-product__title">
-                                            Редуктор для чистых газов GCE Druva FMD 510-14
-                                        </a>
-                                        <div class="voessen__item-product__price">
-                                            <span class="voessen__item-product__price__old-value">
-                                                26 091 <span class="b-rub">Р</span>
-                                            </span>
-                                            <span class="voessen__item-product__price__value">
-                                                28 990 <span class="b-rub">Р</span> / шт
-                                            </span>
-                                        </div>
-                                        <div class="voessen__item-product__quantity">
-                                            Осталось: <b>10 шт</b>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="voessen__product__count-box">
-                                                    <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value"
-                                                           id="countProduct2">
+                                                           class="voessen__product__count-box__value" id="countProduc2t">
                                                     <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
                                                             onclick="countProduct('minus', 'countProduct2')">
                                                     </button>
@@ -348,7 +367,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
                                                 <button class="btn-cart">
                                                     <svg class="btn-cart__icon" width="24" height="24">
                                                         <use xlink:href="#svg-cart"></use>
@@ -356,17 +376,18 @@
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
-
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="voessen__item-product">
-                                        <a href="" class="voessen__item-product__fav">
-                                            <svg width="24" height="23">
-                                                <use xlink:href="#svg-fav"></use>
-                                            </svg>
-                                        </a>
                                         <a href="" class="voessen__item-product__img">
                                             <img
                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
@@ -391,12 +412,11 @@
                                         <div class="voessen__item-product__quantity">
                                             Осталось: <b>10 шт</b>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-6">
+                                        <div class="row row--min">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
                                                 <div class="voessen__product__count-box">
                                                     <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value"
-                                                           id="countProduct3">
+                                                           class="voessen__product__count-box__value" id="countProduct3">
                                                     <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
                                                             onclick="countProduct('minus', 'countProduct3')">
                                                     </button>
@@ -405,7 +425,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
                                                 <button class="btn-cart">
                                                     <svg class="btn-cart__icon" width="24" height="24">
                                                         <use xlink:href="#svg-cart"></use>
@@ -413,7 +434,13 @@
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
-
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -443,12 +470,11 @@
                                         <div class="voessen__item-product__quantity">
                                             Осталось: <b>10 шт</b>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-6">
+                                        <div class="row row--min">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
                                                 <div class="voessen__product__count-box">
                                                     <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value"
-                                                           id="countProduct4">
+                                                           class="voessen__product__count-box__value" id="countProduct4">
                                                     <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
                                                             onclick="countProduct('minus', 'countProduct4')">
                                                     </button>
@@ -457,7 +483,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
                                                 <button class="btn-cart">
                                                     <svg class="btn-cart__icon" width="24" height="24">
                                                         <use xlink:href="#svg-cart"></use>
@@ -465,7 +492,13 @@
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
-
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -495,12 +528,11 @@
                                         <div class="voessen__item-product__quantity">
                                             Осталось: <b>10 шт</b>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-6">
+                                        <div class="row row--min">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
                                                 <div class="voessen__product__count-box">
                                                     <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value"
-                                                           id="countProduct5">
+                                                           class="voessen__product__count-box__value" id="countProduct5">
                                                     <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
                                                             onclick="countProduct('minus', 'countProduct5')">
                                                     </button>
@@ -509,7 +541,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
                                                 <button class="btn-cart">
                                                     <svg class="btn-cart__icon" width="24" height="24">
                                                         <use xlink:href="#svg-cart"></use>
@@ -517,7 +550,13 @@
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
-
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -547,12 +586,11 @@
                                         <div class="voessen__item-product__quantity">
                                             Осталось: <b>10 шт</b>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-6">
+                                        <div class="row row--min">
+                                            <div class="col-12 col-sm-6 voessen__item-product__col-count">
                                                 <div class="voessen__product__count-box">
                                                     <input type="text" value="1" readonly=""
-                                                           class="voessen__product__count-box__value"
-                                                           id="countProduct6">
+                                                           class="voessen__product__count-box__value" id="countProduct6">
                                                     <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus"
                                                             onclick="countProduct('minus', 'countProduct6')">
                                                     </button>
@@ -561,7 +599,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+
+                                            <div class="col-6 voessen__item-product__btn-bay">
                                                 <button class="btn-cart">
                                                     <svg class="btn-cart__icon" width="24" height="24">
                                                         <use xlink:href="#svg-cart"></use>
@@ -569,7 +608,13 @@
                                                     <span>В корзину</span>
                                                 </button>
                                             </div>
-
+                                            <div class="col-mob-fav">
+                                                <a href="" class="voessen__item-product__fav">
+                                                    <svg width="24" height="23">
+                                                        <use xlink:href="#svg-fav"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -934,11 +979,11 @@
                 </div>
             </div>
         </div>
-        <div class="row fpad30">
-            <div class="col-lg-4 col-xl-3">
+        <div class="row fpad30 align-items-center voessen__header-caption">
+            <div class="col-lg-4 col-xl-3 col-7 voessen__header-caption__col-title">
                 <h2 class="h2">Распродажа</h2>
             </div>
-            <div class="col-lg-8 col-xl-9 d-flex align-items-center">
+            <div class="col-lg-8 col-xl-9 d-flex align-items-center  voessen__header-caption__col-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#tab_ur">
@@ -1060,12 +1105,14 @@
             </div>
         </div>
         <hr>
-        <div class="row tpad50 fpad30">
-            <div class="col-lg-4 col-xl-3">
+        <div class="row tpad50 fpad30  voessen__header-caption align-items-center">
+            <div class="col-lg-6 col-6 voessen__header-caption__col-title">
                 <h2 class="h2">Статьи</h2>
             </div>
-            <div class="col-lg-8 col-xl-9 d-flex align-items-center">
-                <a href="" class="ml-auto voessen__more-link"><span>Все статьи</span></a>
+            <div class="col-lg-6 d-flex align-items-center  d-flex col-5 voessen__header-caption__col-more-link">
+                <div class="ml-auto">
+                    <a href="" class="voessen__more-link"><span>Все статьи</span></a>
+                </div>
             </div>
         </div>
         <div class="fpad50 row">
@@ -1148,7 +1195,8 @@
                                 </div>
                             </div>
                             <div class="voessen__subscribe__form__ps">
-                                Нажимая на кнопку «Получить», вы соглашаетесь с условиями <a href="" target="_blank">Политики конфиденциальности</a>
+                                Нажимая на кнопку «Получить», вы соглашаетесь с условиями <a href="" target="_blank">Политики
+                                    конфиденциальности</a>
                             </div>
                         </div>
                     </form>
@@ -1157,10 +1205,10 @@
         </div>
     </aside>
 
-<?php
-include_once __DIR__ . '/inc/footer.php';
-include_once __DIR__ . '/inc/sprite.php';
-?>
+    <?php
+    include_once __DIR__ . '/inc/footer.php';
+    include_once __DIR__ . '/inc/sprite.php';
+    ?>
 
 </div>
 </body>

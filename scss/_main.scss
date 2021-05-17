@@ -1043,6 +1043,7 @@ h2, .h2 {
     display: block;
     position: relative;
     z-index: 1;
+    width: 100%;
   }
   .voessen__item-art__wrap {
     position: absolute;
@@ -1188,6 +1189,9 @@ img {
         background-color: #0092d2;
         color: #e6f7ff;
       }
+    }
+    &:last-child {
+      padding-right: 0;
     }
   }
 }
