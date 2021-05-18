@@ -24,8 +24,9 @@
 }
 
 @media screen and (max-width: 991px) {
-  .voessen__header {
-    display: none;
+  .voessen__header,
+  .voessen__fix-nav.active {
+    display: none !important;
   }
   .voessen__header-mob {
     display: block;
@@ -207,6 +208,9 @@
   }
   .text h3, .text .h3 {
     font-size: 20px;
+  }
+  .voessen__footer__bottom {
+    justify-content: center;
   }
 }
 

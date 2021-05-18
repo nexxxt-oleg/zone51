@@ -101,6 +101,7 @@ body {
 
   .voessen__header__logo {
     text-decoration: none;
+    color: #0092d2;
 
     .voessen__header__logo__icon {
       min-width: 170px;
@@ -1210,4 +1211,154 @@ img {
     font-size: 14px;
     line-height: 18px;
   }
+}
+.voessen__fix-nav {
+  display: block;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0092d2;
+  padding: 10px 0;
+  margin-top: -50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    .voessen__header__search .voessen__header__search__inp {
+      height: 40px;
+    }
+    .voessen__header__search .voessen__header__search__submit {
+      height: 40px;
+    }
+    .voessen__fix-nav__col-phone {
+      margin: 0 auto;
+      padding: 5px 15px;
+      .tel {
+        display: block;
+        font-size: 20px;
+        line-height: 1;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    .voessen__fix-nav__col-shop {
+      flex-basis: 200px;
+      margin-left: auto;
+      margin-right: 0;
+      .nav__shop {
+        justify-content: space-between;
+        li {
+          a {
+            color: #fff;
+            display: block;
+            width: 24px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .voessen__fix-nav__logo {
+      display: block;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .container {
+    position: relative;
+  }
+  .voessen__fix-nav__wrap {
+    position: absolute;
+    z-index: 200;
+    top: 100%;
+    left: -30px;
+    right: -30px;
+    margin-top: 10px;
+    &__inner {
+      background-color: #fff;
+      padding: 45px 150px;
+      position: relative;
+      box-shadow:         0px 10px 10px 0px rgba(173, 173, 173, 0.4);
+    }
+    .navbar-nav {
+      li {
+        padding-bottom: 10px;
+         a {
+           display: block;
+           text-decoration: none;
+           font-size: 16px;
+           line-height: 24px;
+           color: #515151;
+         }
+      }
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    display: flex;
+    border-radius: 0;
+    width: 30px;
+    height: 24px;
+    position: relative;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 100%;
+      background: #fff;
+      border-radius: 2px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+      &:nth-child(1) {
+        top: 0px;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        top: 10px;
+      }
+      &:nth-child(4) {
+        top: 20px;
+      }
+    }
+    &:not(.collapsed) {
+      outline: none;
+      span {
+        &:nth-child(1) {
+          top: 10px;
+          width: 0%;
+          left: 50%;
+        }
+        &:nth-child(2) {
+          transform: rotate(45deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+        }
+        &:nth-child(4) {
+          top: 10px;
+          width: 0%;
+          left: 50%;
+        }
+      }
+
+    }
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
 }

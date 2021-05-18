@@ -98,6 +98,19 @@ if(window.screen.width < 991) {
         evnt.preventDefault();
         drawer.close();
     });
+} else {
+    function getScrollMenu() {
+        let el = document.getElementById('fixNav');
+        if(pageYOffset > 300) {
+            el.classList.add('active');
+        } else {
+            el.classList.remove("active");
+        }
+    }
+    getScrollMenu();
+    window.addEventListener('scroll', function() {
+        getScrollMenu();
+    });
 }
 
 

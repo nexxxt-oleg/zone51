@@ -1211,5 +1211,8 @@
     ?>
 
 </div>
+<?php
+include_once __DIR__ . '/inc/script.php';
+?>
 </body>
 </html>
