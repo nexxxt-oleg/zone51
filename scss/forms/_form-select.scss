@@ -6,32 +6,26 @@
 .form-select {
   display: block;
   width: 100%;
-  padding: $form-select-padding-y ($form-select-padding-x + $form-select-indicator-padding) $form-select-padding-y $form-select-padding-x;
+  padding: 10px 20px 10px 10px;
   font-family: $form-select-font-family;
   @include font-size($form-select-font-size);
   font-weight: $form-select-font-weight;
   line-height: $form-select-line-height;
   color: $form-select-color;
   vertical-align: middle;
-  background-color: $form-select-bg;
-  background-image: escape-svg($form-select-indicator);
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 13.17 7.59'%3E%3Cpath fill='%230092d2' d='M1,0H12.17a1,1,0,0,1,1,1,1,1,0,0,1-.29.71L7.29,7.29a1,1,0,0,1-1.41,0L.29,1.71A1,1,0,0,1,.29.29,1,1,0,0,1,1,0' transform='translate(0 0)'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: $form-select-bg-position;
   background-size: $form-select-bg-size;
   border: $form-select-border-width solid $form-select-border-color;
-  @include border-radius($form-select-border-radius, 0);
-  @include box-shadow($form-select-box-shadow);
+  @include border-radius(0, 0);
   appearance: none;
 
   &:focus {
     border-color: $form-select-focus-border-color;
     outline: 0;
-    @if $enable-shadows {
-      @include box-shadow($form-select-box-shadow, $form-select-focus-box-shadow);
-    } @else {
-      // Avoid using mixin so we can pass custom focus shadow properly
-      box-shadow: $form-select-focus-box-shadow;
-    }
+    box-shadow: none;
   }
 
   &[multiple],
@@ -54,9 +48,9 @@
 }
 
 .form-select-sm {
-  padding-top: $form-select-padding-y-sm;
-  padding-bottom: $form-select-padding-y-sm;
-  padding-left: $form-select-padding-x-sm;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
   @include font-size($form-select-font-size-sm);
 }
 

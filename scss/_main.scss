@@ -440,6 +440,12 @@ body {
       right: 15px;
     }
   }
+  &--min {
+    padding: 5px 20px;
+    min-height: 38px;
+    text-transform: none;
+    letter-spacing: 0;
+  }
 }
 
 .voessen__header__main-nav__col-menu {
@@ -560,14 +566,6 @@ a:hover {
   a:hover {
     color: #0092d2;
   }
-}
-
-.fpad30 {
-  padding-bottom: 30px;
-}
-
-.fpad50 {
-  padding-bottom: 50px;
 }
 
 .margb30 {
@@ -887,7 +885,7 @@ h2, .h2 {
 
   &:hover {
     span {
-      margin-left: 200px;
+      margin-left: 500px;
     }
 
     .btn-cart__icon {
@@ -1361,4 +1359,507 @@ img {
     }
   }
 
+}
+.voessen__full-banner {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 540px;
+    padding-bottom: 25px;
+    &__desc {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .voessen__breadcrumbs li span {
+    color: #fff;
+  }
+}
+.voessen__breadcrumbs {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #0092d2;
+  li:not(:last-child) {
+    padding-right: 30px;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 7px;
+      right: 14px;
+      width: 1px;
+      height: 10px;
+      background-color: #0092d2;
+    }
+  }
+  a {
+    color: #0092d2;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.voessen__text {
+  color: #000;
+  &--white {
+    color: #fff;
+    p {
+      color: #fff;
+    }
+    li {
+      color: #fff;
+    }
+  }
+  h1,
+  & .h1,
+  & h2,
+  & .h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #525252;
+  }
+  li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #525252;
+  }
+}
+.tpad15 {
+  padding-top: 15px;
+}
+.fpad50 {
+  padding-bottom: 50px;
+}
+.voessen__subcat-link {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  height: 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-decoration: none;
+  justify-content: center;
+  &__title {
+    min-height: 86px;
+    padding-bottom: 15px;
+    max-width: 410px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &--center {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+.voessen__title-box {
+  display: flex;
+  padding-bottom: 15px;
+  h1 {
+    flex-grow: 1;
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+  .voessen__title-box__col-link {
+    flex-basis: 150px;
+    text-align: right;
+    min-width: 150px;
+  }
+}
+.voessen__ico-link {
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  svg {
+    color: #0092d2;
+    margin-right: 10px;
+  }
+  &:hover {
+    color: #0092d2;
+  }
+}
+.voessen__product__col-pic {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  &__item {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+.voessen__product__specifications {
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    min-height: 55px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+  &__label {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  &__value {
+    flex-basis: 50%;
+    max-width: 50%;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+  }
+}
+.voessen__product__card-bay {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(230, 230, 230);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px 0px rgba(173, 173, 173, 0.2);
+  padding: 22px 30px;
+  &__row {
+    padding-bottom: 15px;
+  }
+  .voessen__product__har-label {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+  .voessen__product__har-value {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+  }
+  .voessen__product__har-select {
+    margin-left: -10px;
+  }
+  .voessen__item-product__price .voessen__item-product__price__value {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .voessen__product__card-bay__requirements {
+    padding: 5px 0 20px;
+  }
+}
+.voessen__link {
+  color: #000;
+  text-decoration: none;
+  span {
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    border-bottom: 1px solid #0092d2;
+  }
+  &:hover {
+    span {
+      border-bottom-color: transparent;
+    }
+  }
+}
+.voessen__product__table-list-product {
+  padding-bottom: 30px;
+  .table {
+    margin-bottom: 30px;
+    thead {
+      th {
+        border-bottom: none;
+        background-color: #0092d2;
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+      }
+      td:not(:first-child) {
+        text-align: center;
+      }
+    }
+    td {
+      color: #000;
+      font-size: 16px;
+      line-height: 18px;
+      border-bottom: 1px solid #0092d2;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+    tbody {
+      td:not(:first-child) {
+        text-align: center;
+      }
+      tr:hover {
+        td {
+          background: #f1fafe;
+          a {
+            color: #0092d2;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom: 1px solid #0092d2;
+}
+.tpad0 {
+  padding-top: 0 !important;
+}
+.fpad30 {
+  padding-bottom: 30px;
+}
+
+.fpad50 {
+  padding-bottom: 50px;
+}
+.voessen__product__square {
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  display: flex;
+  .voessen__product__formula {
+    color: #0092d2;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+}
+.voessen__product__search-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  &__label {
+    flex-basis: 90px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+  }
+  .voessen__product__search-box__wrap {
+    flex-basis: 300px;
+    flex-grow: 1;
+  }
+}
+.voessen__search-box {
+  position: relative;
+  &__inp {
+    display: block;
+    padding: 0 35px 0 10px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    height: 32px;
+    color: #000;
+    font-size: 14px;
+    line-height: 30px;
+    &::placeholder {
+      opacity: 1;
+      color: #000;
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+  &__submit {
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    color: #0092d2;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+  }
+}
+.voessen__product__th {
+  margin-left: 0;
+  margin-bottom: 5px;
+  div {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #0092d2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+  }
+  .voessen__product__th__rb {
+    border-right: 1px solid #f6f6f6;
+  }
+  &__col-1 {
+    padding-right: 8px;
+    flex-basis: 80px;
+  }
+  &__col-2 {
+    padding-right: 8px;
+    padding-left: 15px;
+    flex-basis: 70px;
+  }
+  &__col-3 {
+    padding-right: 8px;
+    flex-basis: 85px;
+    flex-grow: 1;
+    padding-left: 15px;
+  }
+}
+.pr-0 {
+  padding-right: 0;
+}
+.voessen__product__search-item {
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 15px 20px 15px 15px;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  &__min-col {
+    display: flex;
+    align-items: center;
+    .col1 {
+      flex-basis: 95px;
+      padding-right: 10px;
+    }
+    .col2 {
+      flex-basis: 70px;
+      padding-right: 10px;
+      padding-left: 10px;
+      text-align: center;
+    }
+    .col3 {
+      flex-basis: 80px;
+      padding-right: 10px;
+      flex-grow: 1;
+      padding-left: 10px;
+    }
+  }
+  &__link {
+    flex-basis: 150px;
+    padding-left: 20px;
+    max-width: 150px;
+    margin-left: auto;
+    a {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+}
+.voessen__pagination {
+  padding: 20px 0 0;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 30px;
+  &__prev {
+    margin-right: 50px;
+  }
+  &__next {
+    margin-left: 50px;
+  }
+  .voessen__pagination__nav {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+  }
+  .voessen__pagination__item {
+    margin: 0 5px 15px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      height: 30px;
+      color: #000;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: bold;
+      width: 20px;
+      &.active::after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 10;
+        bottom: -17px;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        background-color: #0092d2;
+      }
+    }
+    .dots {
+      height: 25px;
+      color: #000;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: bold;
+      width: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+    }
+  }
 }

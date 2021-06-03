@@ -129,3 +129,22 @@ var wow = new WOW(
     }
 );
 wow.init();
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    if (document.getElementById('js-btn-clipboard')) {
+        let clipboard = new ClipboardJS('#js-btn-clipboard');
+        clipboard.on('success', function (e) {
+            alertify.success('Скопирована');
+        });
+    }
+
+    if (document.getElementById('lightgallery')) {
+        lightGallery(document.getElementById('lightgallery'), {
+            download: false,
+            counter: false
+        });
+    }
+});
+
+
