@@ -11971,9 +11971,9 @@ img {
   .voessen__text--white {
     color: #fff; }
     .voessen__text--white p {
-      color: #fff; }
+      color: #fff !important; }
     .voessen__text--white li {
-      color: #fff; }
+      color: #fff !important; }
   .voessen__text h1, .voessen__text .h1, .voessen__text .h1, .voessen__text h2, .voessen__text .h2, .voessen__text .h2 {
     font-size: 36px;
     line-height: 40px;
