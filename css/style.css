@@ -11087,7 +11087,11 @@ body {
   font-weight: bold;
   background-color: #36c38c;
   overflow: hidden;
-  z-index: 1; }
+  z-index: 1;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .voessen__btn-green::before {
     content: "";
     -webkit-transition: all 0.3s ease-in-out;
@@ -11718,6 +11722,13 @@ h2, .h2, .h2 {
     .voessen__subscribe__form__ps a {
       color: #fff;
       text-decoration: underline; }
+    .voessen__subscribe__form__ps--v2 {
+      font-size: 14px;
+      padding: 0;
+      line-height: 20px;
+      color: #000; }
+      .voessen__subscribe__form__ps--v2 a {
+        color: #000; }
 
 .voessen__footer {
   padding-top: 75px; }
@@ -13064,6 +13075,14 @@ button:hover {
 .td-btn {
   width: 132px; }
 
+.voessen__form--pading {
+  padding: 25px 30px 30px; }
+
+.voessen__form--shadow {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2); }
+
 .voessen__form__inp-box {
   position: relative;
   padding-bottom: 25px; }
@@ -13079,6 +13098,85 @@ button:hover {
     border: none; }
     .voessen__form__inp-box .form-control.h-20 {
       height: 236px; }
+    .voessen__form__inp-box .form-control.h-29 {
+      height: 290px; }
+  .voessen__form__inp-box--v2 .form-label {
+    color: #9c9c9c; }
+  .voessen__form__inp-box--v2 .form-control {
+    border: 1px solid #9c9c9c; }
+
+.voessen__jobs-item {
+  position: relative;
+  min-height: 100%;
+  padding: 30px 30px 30px 110px;
+  border: 1px solid #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .voessen__jobs-item__icon {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 30px; }
+  .voessen__jobs-item__title {
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+    padding-bottom: 20px; }
+  .voessen__jobs-item .voessen__jobs-item__text {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding-bottom: 20px;
+    color: #525252;
+    font-size: 18px;
+    line-height: 1; }
+
+.voessen__page-bg {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+  .voessen__page-bg .voessen__breadcrumbs li span {
+    color: #fff; }
+
+.file-upload input[type="file"] {
+  display: none; }
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  width: 240px;
+  -ms-flex-preferred-size: 240px;
+      flex-basis: 240px;
+  margin-right: 20px; }
+  .file-upload label {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    border: 1px solid #36c38c;
+    color: #36c38c;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 46px;
+    letter-spacing: 0.2em;
+    font-weight: bold; }
+    .file-upload label:hover {
+      color: #fff;
+      background-color: #36c38c; }
+
+.file-upload__value {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px; }
 
 .voessen__header-mob,
 .mobile-nav {
