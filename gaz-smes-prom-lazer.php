@@ -164,7 +164,7 @@
                     <div class="row row--min">
                         <div class="col-6 col-sm-5 col-lg-5 voessen__item-product__col-count">
                             <div class="voessen__product__count-box">
-                                <input type="text" value="1" readonly="" class="voessen__product__count-box__value" id="countProduc2t">
+                                <input type="text" value="1" readonly="" class="voessen__product__count-box__value" id="countProduct2">
                                 <button class="voessen__product__count-box__nav voessen__product__count-box__nav--minus" onclick="countProduct('minus', 'countProduct2')">
                                 </button>
                                 <button class="voessen__product__count-box__nav voessen__product__count-box__nav--plus" onclick="countProduct('plus', 'countProduct2')">

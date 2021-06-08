@@ -8,7 +8,7 @@
   width: 100%;
   padding: 10px 20px 10px 10px;
   font-family: $form-select-font-family;
-  @include font-size($form-select-font-size);
+  font-size: 16px;
   font-weight: $form-select-font-weight;
   line-height: $form-select-line-height;
   color: $form-select-color;

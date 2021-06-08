@@ -145,6 +145,13 @@ document.addEventListener("DOMContentLoaded", () => {
             counter: false
         });
     }
+
+    if (document.getElementById('jsScrollWrap')) {
+        if(document.getElementById('jsScrollWrap').clientHeight > 200) {
+            document.getElementById('jsScrollWrap').parentNode.style.height = '230px';
+            let jsScrollbar = new MiniBar(document.getElementById("jsScrollWrap"), {});
+        }
+    }
 });
 
 
