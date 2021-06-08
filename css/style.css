@@ -11017,7 +11017,7 @@ body {
   position: relative; }
   .voessen__home-slider .voessen__home-slider__item {
     height: 540px;
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     padding: 70px 0; }
@@ -11111,6 +11111,9 @@ body {
     text-transform: none;
     letter-spacing: 0;
     color: #fff !important; }
+    .voessen__btn-green--min:hover {
+      text-decoration: none !important;
+      background-color: #2da174; }
     .voessen__btn-green--min::before {
       display: none; }
   .voessen__btn-green--min-pad {
@@ -12006,6 +12009,22 @@ img {
     line-height: 24px;
     margin-bottom: 15px;
     color: #525252; }
+  .voessen__text ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 10px 40px; }
+    .voessen__text ul li {
+      position: relative; }
+      .voessen__text ul li::after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 20px;
+        height: 1px;
+        background-color: #0092d2;
+        top: 12px;
+        left: -40px; }
 
 .tpad15 {
   padding-top: 15px; }
@@ -13041,6 +13060,25 @@ button:hover {
 
 .text-left {
   text-align: left; }
+
+.td-btn {
+  width: 132px; }
+
+.voessen__form__inp-box {
+  position: relative;
+  padding-bottom: 25px; }
+  .voessen__form__inp-box .form-label {
+    display: block;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom: 3px;
+    margin-bottom: 0; }
+  .voessen__form__inp-box .form-control {
+    border: none; }
+    .voessen__form__inp-box .form-control.h-20 {
+      height: 236px; }
 
 .voessen__header-mob,
 .mobile-nav {

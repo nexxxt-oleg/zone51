@@ -352,7 +352,7 @@ body {
 
   .voessen__home-slider__item {
     height: 540px;
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     padding: 70px 0;
@@ -437,6 +437,7 @@ body {
   &:hover {
     color: #fff;
 
+
     &::before {
       right: 15px;
     }
@@ -448,6 +449,10 @@ body {
     text-transform: none;
     letter-spacing: 0;
     color: #fff !important;
+    &:hover {
+      text-decoration: none !important;
+      background-color: $green-hover;
+    }
 
     &::before {
       display: none;
@@ -1578,6 +1583,26 @@ img {
     margin-bottom: 15px;
     color: #525252;
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 10px 40px;
+    li {
+      position: relative;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 20px;
+        height: 1px;
+        background-color: $blue;
+        top: 12px;
+        left: -40px;
+      }
+    }
+  }
 }
 
 .tpad15 {
@@ -2694,4 +2719,26 @@ button:hover {
 }
 .text-left {
   text-align: left;
+}
+.td-btn {
+  width: 132px;
+}
+.voessen__form__inp-box {
+  position: relative;
+  padding-bottom: 25px;
+  .form-label {
+    display: block;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+  }
+  .form-control {
+    border: none;
+    &.h-20 {
+      height: 236px;
+    }
+  }
 }
