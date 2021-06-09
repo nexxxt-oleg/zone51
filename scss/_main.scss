@@ -1236,7 +1236,7 @@ h2, .h2 {
     a {
       font-size: 16px;
       line-height: 24px;
-      color: #515151;
+      color: #000;
       text-decoration: none;
 
       &:hover {
@@ -1553,17 +1553,21 @@ img {
   span {
     font-size: 14px;
     line-height: 18px;
+    color: #515151;
   }
 }
 
 .voessen__text {
-  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
 
   &--white {
     color: #fff;
 
     p {
       color: #fff !important;
+
     }
 
     li {
@@ -1589,7 +1593,11 @@ img {
     color: #525252;
 
     a {
-
+      text-decoration: none;
+      color: $blue;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -1666,6 +1674,7 @@ img {
     flex-grow: 1;
     padding-right: 30px;
     padding-bottom: 0;
+    color: #000;
   }
 
   .voessen__title-box__col-link {
@@ -2116,6 +2125,10 @@ img {
   padding: 20px 0 0;
   border-bottom: 2px solid #fff;
   margin-bottom: 30px;
+
+  &--v2 {
+    border-bottom-color: #f6f6f6;
+  }
 
   &__prev {
     margin-right: 50px;
@@ -2790,6 +2803,7 @@ button:hover {
 
   .form-control {
     border: none;
+    padding-left: 20px;
 
     &.h-20 {
       height: 236px;
@@ -2810,7 +2824,9 @@ button:hover {
     }
   }
 }
-
+.form-control:focus {
+  box-shadow: none !important;
+}
 .voessen__jobs-item {
   position: relative;
   min-height: 100%;
@@ -2888,4 +2904,103 @@ button:hover {
   color: #000;
   font-size: 14px;
   line-height: 20px;
+}
+.voessen__label-info {
+  color: #9c9c9c;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.fots20 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  small {
+    font-size: 14px;
+    line-height: 1;
+    color: #000;
+  }
+}
+.voessen__link-border {
+  display: inline-block;
+  border-bottom: 1px solid $blue;
+  text-decoration: none;
+  color: #000;
+  line-height: 1.1;
+  &:hover {
+    border-bottom-color: transparent;
+  }
+}
+.voessen__contacts-info__time {
+  padding-top: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+.voessen__contacts-map {
+  padding: 30px 0;
+}
+.voessen__text__caption-ico {
+  border-bottom:1px solid #e5e5e5;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  svg {
+    margin-right: 25px;
+  }
+  span {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+    color: #000;
+  }
+}
+.voessen__font16-l {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: $blue;
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 10px;
+  }
+}
+.nav--file-list {
+  li {
+    padding-bottom: 4px;
+  }
+}
+.voessen__download-box {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  text-decoration: none;
+  &__title {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: $blue;
+  }
+  &__ico {
+    border-left: 1px solid #e6e6e6;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+figcaption {
+  padding-top: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
+  font-weight: 300;
 }

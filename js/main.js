@@ -142,7 +142,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById('lightgallery')) {
         lightGallery(document.getElementById('lightgallery'), {
             download: false,
-            counter: false
+            counter: false,
+            selector: 'a'
         });
     }
 
