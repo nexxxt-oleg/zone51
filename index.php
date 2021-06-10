@@ -494,6 +494,7 @@
 
     <?php
     include_once __DIR__ . '/inc/subscribe.php';
+    include_once __DIR__ . '/inc/instagramm.php';
     include_once __DIR__ . '/inc/footer.php';
     include_once __DIR__ . '/inc/sprite.php';
     ?>
