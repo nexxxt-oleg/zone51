@@ -12262,12 +12262,24 @@ img {
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .voessen__product__square .voessen__product__formula {
     color: #0092d2;
     font-size: 26px;
     line-height: 30px;
-    font-weight: bold; }
+    font-weight: 800;
+    width: 100%; }
+  .voessen__product__square .voessen__product__name {
+    width: 100%;
+    color: #515151;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    padding-top: 15px; }
 
 .voessen__product__search-box {
   display: -webkit-box;
@@ -13398,6 +13410,126 @@ figcaption {
       z-index: 10; }
   .voessen__faq__body {
     padding-bottom: 5px; }
+
+.ml-3 {
+  margin-left: 15px; }
+
+.ml-auto {
+  margin-left: auto; }
+
+.voessen__product__square__sub-nav {
+  position: relative;
+  cursor: pointer; }
+  .voessen__product__square__sub-nav .voessen__sub-catalog-hover {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #0092d2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 10px 10px 65px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    visibility: hidden; }
+    .voessen__product__square__sub-nav .voessen__sub-catalog-hover__formula {
+      position: absolute;
+      z-index: 10;
+      left: 10px;
+      top: 13px;
+      width: 50px;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 18px;
+      color: #fff;
+      text-align: left; }
+    .voessen__product__square__sub-nav .voessen__sub-catalog-hover .voessen__sub-catalog-hover__nav {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .voessen__product__square__sub-nav .voessen__sub-catalog-hover .voessen__sub-catalog-hover__nav li {
+        padding-bottom: 10px; }
+        .voessen__product__square__sub-nav .voessen__sub-catalog-hover .voessen__sub-catalog-hover__nav li a {
+          display: block;
+          font-size: 16px;
+          line-height: 1;
+          color: #fff;
+          text-align: left;
+          text-decoration: none; }
+          .voessen__product__square__sub-nav .voessen__sub-catalog-hover .voessen__sub-catalog-hover__nav li a:hover {
+            text-decoration: underline;
+            color: #fff; }
+  .voessen__product__square__sub-nav:hover .voessen__sub-catalog-hover {
+    opacity: 1;
+    visibility: visible; }
+
+.voessen__links-section__item {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6; }
+  .voessen__links-section__item .voessen__links-section__col-formula {
+    -ms-flex-preferred-size: 110px;
+        flex-basis: 110px;
+    width: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 110px;
+    height: 95px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .voessen__links-section__item .voessen__links-section__col-formula .voessen__product__formula {
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0092d2; }
+    .voessen__links-section__item .voessen__links-section__col-formula .voessen__product__name {
+      color: #515151;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 18px; }
+  .voessen__links-section__item .nav {
+    -ms-flex-preferred-size: 100px;
+        flex-basis: 100px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding-left: 30px; }
+    .voessen__links-section__item .nav li {
+      padding: 5px 30px 5px 0; }
+      .voessen__links-section__item .nav li a {
+        color: #515151;
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration: none; }
+        .voessen__links-section__item .nav li a:hover {
+          color: #0092d2;
+          text-decoration: none; }
+  .voessen__links-section__item:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(173, 173, 173, 0.5);
+            box-shadow: 0px 0px 20px 0px rgba(173, 173, 173, 0.5); }
 
 .voessen__header-mob,
 .mobile-nav {

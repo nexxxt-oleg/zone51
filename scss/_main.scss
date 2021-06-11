@@ -1905,12 +1905,22 @@ img {
   border: 1px solid #e6e6e6;
   padding: 15px;
   display: flex;
+  flex-direction: column;
 
   .voessen__product__formula {
     color: #0092d2;
     font-size: 26px;
     line-height: 30px;
+    font-weight: 800;
+    width: 100%;
+  }
+  .voessen__product__name {
+    width: 100%;
+    color: #515151;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: bold;
+    padding-top: 15px;
   }
 }
 
@@ -3089,5 +3099,119 @@ figcaption {
   }
   &__body {
     padding-bottom: 5px;
+  }
+}
+.ml-3 {
+  margin-left: 15px;
+}
+.ml-auto {
+  margin-left: auto
+}
+.voessen__product__square__sub-nav {
+  position: relative;
+  cursor: pointer;
+  .voessen__sub-catalog-hover {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #0092d2;
+    display: flex;
+    padding: 15px 10px 10px 65px;
+    transition: all 0.3s ease-in;
+    visibility: hidden;
+    &__formula {
+      position: absolute;
+      z-index: 10;
+      left: 10px;
+      top: 13px;
+      width: 50px;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 18px;
+      color: #fff;
+      text-align: left;
+    }
+    .voessen__sub-catalog-hover__nav {
+      justify-content: flex-start;
+      align-items: flex-start;
+      li {
+        padding-bottom: 10px;
+        a {
+          display: block;
+          font-size: 16px;
+          line-height: 1;
+          color: #fff;
+          text-align: left;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    .voessen__sub-catalog-hover {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+.voessen__links-section {
+  &__item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    .voessen__links-section__col-formula {
+      flex-basis: 110px;
+      width: 110px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 110px;
+      height: 95px;
+      flex-direction: column;
+      .voessen__product__formula {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 800;
+        color: $blue;
+      }
+      .voessen__product__name {
+        color: #515151;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+    .nav {
+      flex-basis: 100px;
+      flex-grow: 1;
+      padding-left: 30px;
+      li {
+        padding: 5px 30px 5px 0;
+        a {
+          color: #515151;
+          font-size: 16px;
+          line-height: 18px;
+          text-decoration: none;
+          &:hover {
+            color: $blue;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    &:hover {
+        box-shadow: 0px 0px 20px 0px rgba(173, 173, 173, 0.5);
+    }
   }
 }
