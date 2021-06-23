@@ -202,6 +202,105 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-12">
+                <div class="table-responsive table-responsive-lg voessen__product__table-list-product pb-0">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Класс чистоты</th>
+                            <th>Чистота</th>
+                            <th colspan="12" style="text-align: center">Примеси [ppm]</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>H<sub>2</sub>O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                            <td>H2O</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><a href="">Аргон нулевой</a></td>
+                            <td>≥99.999%</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Аргон 5.0</a></td>
+                            <td>≥99.999%</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Аргон 6.0</a></td>
+                            <td>≥99.999%</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Аргон 7.0</a></td>
+                            <td>≥99.999%</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>≤2</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex fpad50 align-items-center flex-wrap">
+                    <span class="fonts18 fw-bold mr-10">Нужна помощь в выборе чистоты?</span>
+                    <button class="voessen__btn-green">Получить консультацию</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -212,174 +311,156 @@
                     <ul class="nav voessen__tab-box__header">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#tab1">
-                                Описание
+                                Тип баллонов
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#tab2">
-                                Схожие и аналогичные ГСО
+                                Характеристика
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#tab3">
-                                Компоненты
+                                Класс опасности
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#tab4">
-                                Файлы
+                                Получение
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tab5">
+                                Применение
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tab6">
+                                Физические свойства
                             </a>
                         </li>
                     </ul>
                     <div class="voessen__tab-box__body">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="tab1">
-                                <p>Стандартные образцы состава искусственной газо-жидкостной смеси (ИГЖС) на основе углеводородов приготавливаются в соответствии с ТУ 0272-013-20810646-2014 "Стандартные образцы состава газо-жидкостных и жидкостных смесей на основе углеводородов. Технические условия"</p>
-
-                                <p>Область применения стандартных образцов: нефте- и газодобывающая и перерабатывающая промышленность</p>
-
-                                <p>Стандартный образец представляет собой искусственную газо-жидкостную или жидкую смесь на основе углеводородов, состоящую из определяемых компонентов. Смесь находится в баллонах постоянного давления поршневого типа вместимостью от 1 до 6 дм3, в баллонах из алюминиевых сплавов АМг6, 1330 по ГОСТ 4784 или нержавеющей стали 12Х18Н10Т, 03Х17Н14М2, 03Х17Н14М3 по ГОСТ 5632 (в том числе баллоны с лейнером из нержавеющей стали), оборудованных двухпортовыми вентилями с устройствами сифонного типа, в ампулах и виалах (при отсутствии в составе определяемых компонентов O2, N2, CO2, H2S, COS, CH3SH, CH4, C2H2, C2H4, C2H6), в двухвентильных баллонах из алюминиевых сплавов АМг6, 1330 по ГОСТ 4784 или нержавеющей стали 12Х18Н10Т, 03Х17Н14М2, 03Х17Н14М3 по ГОСТ 5632 (в том числе баллоны с лейнером из нержавеющей стали) (при отсутствии в составе определяемых компонентов O2, N2, CO2)</p>
+                                <p>Технический газ требователен к условиям хранения и эксплуатации, и если он не используется регулярно, такое оборудование станет балластом в бюджете организации. Кроме этого, газовые баллоны должны храниться с соблюдением норм и правил, что приводит к необходимости организации дополнительного склада. Поэтому, если газовая сварка используется в организации нечасто, снижение расходов станет лучшим финансовым решением. Для внутреннего пользования подойдет аренда на кратковременный период, которую предлагает компания ООО «Фёссен Эм Ай И».</p>
                             </div>
                             <div class="tab-pane fade" id="tab2">
+                                <p>При нормальных условиях — газ без цвета и запаха. Инертен. При высокой концентрации в воздухе вызывает удушье. Тяжелее воздуха.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab3">
+                                <div class="voessen__text">
+                                    <p class="fonts18 fw-bold">Международная маркировка в соответствии с СГС (GHS)</p>
+                                    <p>Сигнальное слово: ОСТОРОЖНО</p>
+                                    <div class="voessen__box-ifo-pic">
+                                        <div class="voessen__box-ifo-pic__img">
+                                            <img src="./img/d1.jpg" alt="">
+                                        </div>
+                                        <div class="voessen__box-ifo-pic__desc">
+                                            H–фразы:
+                                            <br>Сжатый газ → H280 — Содержит газ под давлением; при нагревании может произойти взрыв.
+                                            <br>Криогенная жидкость → H281 — Содержит охлаждённый газ; может вызывать криогенные ожоги или увечья.
+                                        </div>
+                                    </div>
+                                    <div class="voessen__box-ifo-pic">
+                                        <div class="voessen__box-ifo-pic__img">
+                                            <img src="./img/t2.jpg" alt="">
+                                        </div>
+                                        <div class="voessen__box-ifo-pic__desc">
+                                            ADR Класс: 2
+                                            <br>1A (Сжатый)
+                                            <br>3A (Криогенный)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab4">
+                                <p>Чистый аргон получают в промышленном масштабе путем сжижения и последующего разделения жидкого воздуха. Для получения чистого аргона берется сырой аргон из воздухоразделительной установки, содержащий до 5% кислорода, затем дополнительно очищается от кислорода во вторичной колонне методом «противодавления». Особо чистым аргон становится в процессе дополнительной очистки на специальном оборудовании.</p>
+                            </div>
+                            <div class="tab-pane fade" id="tab5">
+                                <ul class="voessen__application-list">
+                                    <li>В газовой хроматографии в качестве газа–носителя.</li>
+                                    <li>При плазменном травлении, ионной имплантации.</li>
+                                    <li>В качестве инертной подушки при выращивании кристаллов.</li>
+                                    <li>В спектроскопии и масс–спектрометрии с индуктивно-связанной плазмой .</li>
+                                    <li>В атомно-абсорбционной спектрометрии в качестве защитного газа для графита.</li>
+                                    <li>В качестве компонента специальных сварочных смесей или в чистом виде в сварочных процессах для защиты сварочной ванны, корня шва.</li>
+                                    <li>В лампах, фосфоресцирующих трубках.</li>
+                                    <li>В медицине при аргоноплазменной коагуляции.</li>
+                                    <li>В смеси с фтором для эксимерных лазеров.</li>
+                                    <li>В качестве продувочного газа в лабораториях.</li>
+                                    <li>Как компонент поверочных газовых смесей.</li>
+                                </ul>
+                                <ul class="nav oessen__application-ico">
+                                    <li>
+                                        <img src="./img/s1.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s2.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s3.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s4.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s5.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s6.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s7.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s8.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s9.svg" alt="" width="50" height="72">
+                                    </li>
+
+                                    <li>
+                                        <img src="./img/s10.svg" alt="" width="50" height="72">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="tab6">
                                 <div class="table-responsive table-responsive-lg voessen__product__table-list-product">
                                     <table class="table table-hover voessen__table">
                                         <thead>
                                         <tr>
-                                            <th>Номер в Госреестре СО </th>
-                                            <th>Наименование СО </th>
-                                            <th>Индекс СО</th>
-                                            <th>Разряд</th>
-                                            <th>Срок годности</th>
-                                            <th>ТУ</th>
-                                            <th class="not-bg"></th>
+                                            <th>Молекулярная масса</th>
+                                            <th></th>
+                                            <th class="text-center">39.948</th>
+                                            <th></th>
+                                            <th></th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td>10524-2014</td>
-                                            <td>СО состава искусственной газо-жидкостной
-                                                смеси на основе углеводородов</td>
-                                            <td>СЖ-М-0</td>
-                                            <td class="text-center">1</td>
-                                            <td>24 месяца</td>
-                                            <td>ТУ 0272-013-20810646-2014</td>
-                                            <td class="td-btn"><a href="" class="voessen__btn-green voessen__btn-green--min">Посмотреть</a></td>
+                                            <td>Точка кипения</td>
+                                            <td>при 1.013 бар [°C]</td>
+                                            <td class="text-center">-185.87</td>
+                                            <td>при 14.5 psi [°F]</td>
+                                            <td class="text-center">-352.55</td>
                                         </tr>
-                                        <tr>
-                                            <td>10524-2014</td>
-                                            <td>СО состава искусственной газо-жидкостной
-                                                смеси на основе углеводородов</td>
-                                            <td>СЖ-М-0</td>
-                                            <td class="text-center">1</td>
-                                            <td>24 месяца</td>
-                                            <td>ТУ 0272-013-20810646-2014</td>
-                                            <td class="td-btn"><a href="" class="voessen__btn-green voessen__btn-green--min">Посмотреть</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>10524-2014</td>
-                                            <td>СО состава искусственной газо-жидкостной
-                                                смеси на основе углеводородов</td>
-                                            <td>СЖ-М-0</td>
-                                            <td class="text-center">1</td>
-                                            <td>24 месяца</td>
-                                            <td>ТУ 0272-013-20810646-2014</td>
-                                            <td class="td-btn"><a href="" class="voessen__btn-green voessen__btn-green--min">Посмотреть</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>10524-2014</td>
-                                            <td>СО состава искусственной газо-жидкостной
-                                                смеси на основе углеводородов</td>
-                                            <td>СЖ-М-0</td>
-                                            <td class="text-center">1</td>
-                                            <td>24 месяца</td>
-                                            <td>ТУ 0272-013-20810646-2014</td>
-                                            <td class="td-btn"><a href="" class="voessen__btn-green voessen__btn-green--min">Посмотреть</a></td>
-                                        </tr>
+
                                         </tbody>
                                     </table>
                                 </div>
 
                             </div>
-                            <div class="tab-pane fade" id="tab3">
-                                <div class="voessen__text">
-                                    <p>Стандартный образец состава искусственной газо-жидкостной смеси на основе углеводородов (СЖ-М-0)</p>
-                                </div>
-                                <div class="table-responsive table-responsive-lg voessen__product__table-list-product">
-                                    <table class="table  voessen__table">
-                                        <thead>
-                                        <tr>
-                                            <th>Определяемый компонент</th>
-                                            <th class="text-center white-normal" style="max-width: 160px;">
-                                                Интервал аттестованных (номинальных)
-                                                значений (% мол.)
-                                            </th>
-                                            <th class="text-center white-normal" style="max-width: 160px">
-                                                Относительная расширенная неопределенность
-                                                при коэффициенте охвата k=2 (%)*
-                                            </th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td class="not-border">1-бутантиол [C4H9SH],</td>
-                                            <td class="text-center" rowspan="4">св. 1•10-3 до 0.1</td>
-                                            <td class="text-center" rowspan="4">3.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">1-бутантиол [C4H9SH],</td>
-                                            <td class="text-center" rowspan="4">св. 1•10-3 до 0.1</td>
-                                            <td class="text-center" rowspan="4">3.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="not-border">Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        <tr>
-                                            <td >Диэтилсульфид [C4H10S],</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="tab4">
-                                <ul class="nav flex-column voessen__list-docs">
-                                    <li>
-                                        <a download="" href="" class="d-flex align-items-center voessen__list-docs__item">
-                                            <svg  width="34" height="36">
-                                                <use xlink:href="#svg-pdf"></use>
-                                            </svg>
-                                            Описание типа СИ Gasera ONE Formaldehyde
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a download="" href="" class="d-flex align-items-center voessen__list-docs__item">
-                                            <svg  width="34" height="36">
-                                                <use xlink:href="#svg-pdf"></use>
-                                            </svg>
-                                            Методики поверки СИ Gasera ONE Formaldehyde
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="voessen__text fpad50">
-                    <p>* Мы предпринимаем максимальные усилия, чтобы поддерживать актуальность данных на нашем сайте, но не всегда это зависит от нас.
-                        Точную информацию об актуальности тех или иных сведений вы всегда можете получить у наших специалистов»</p>
-                    <div>
-                        <button class="voessen__btn-green">Получить консультацию</button>
                     </div>
                 </div>
             </div>
