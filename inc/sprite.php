@@ -411,12 +411,19 @@
                   transform="translate(0 0)"/>
         </symbol>
 
-        <svg id="svg-info" viewBox="0 0 24 24">
+        <symbol id="svg-info" viewBox="0 0 24 24">
             <path fill="currentColor"
                   d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Z"/>
             <path fill="currentColor" d="M12,10H11a1,1,0,0,0,0,2h1v6a1,1,0,0,0,2,0V12A2,2,0,0,0,12,10Z"/>
             <circle fill="currentColor" cx="12" cy="6.5" r="1.5"/>
-        </svg>
+        </symbol>
+
+        <symbol id="svg-del" viewBox="0 0 20 24">
+            <path fill="currentColor"
+                  d="M19,4H15.9A5,5,0,0,0,11,0H9A5,5,0,0,0,4.1,4H1A1,1,0,0,0,1,6H2V19a5,5,0,0,0,5,5h6a5,5,0,0,0,5-5V6h1a1,1,0,0,0,0-2ZM9,2h2a3,3,0,0,1,2.83,2H6.17A3,3,0,0,1,9,2Zm7,17a3,3,0,0,1-3,3H7a3,3,0,0,1-3-3V6H16Z"/>
+            <path fill="currentColor" d="M8,18a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,8,18Z"/>
+            <path fill="currentColor" d="M12,18a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,12,18Z"/>
+        </symbol>
 
     </svg>
 </div>
