@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.29 39.24">
+    <defs>
+        <style>.cls-1{fill="#dafc01"}</style>
+    </defs>
+    <g id="Слой_2" data-name="Слой 2">
+        <g id="Capa_1" data-name="Capa 1">
+            <path class="cls-1" fill="#dafc01" d="M35.49,0H0V39.24H39.29V0ZM7.61,31.64v-24H31.69v24Z"/>
+            <polygon class="cls-1" fill="#dafc01"
+                     points="21.6 18.4 21.6 10.86 17.69 10.86 17.69 22.31 17.87 22.31 21.6 22.31 26.81 22.31 26.81 18.4 21.6 18.4"/>
+        </g>
+    </g>
+</svg>

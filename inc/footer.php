@@ -1,3 +1,5 @@
+<?php /*
+
 <div class="mobile-nav">
     <nav id="menu">
         <div class="mobile-nav__title">
@@ -164,11 +166,11 @@
         </ul>
     </nav>
 </div>
-<div id="fixNav" class="voessen__fix-nav">
+<div id="fixNav" class="zone__fix-nav">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-1 col-xl-1">
-                <a href="/" class="voessen__fix-nav__logo">
+                <a href="/" class="zone__fix-nav__logo">
                     <svg width="32" height="32">
                         <use xlink:href="#svg-logo-min"></use>
                     </svg>
@@ -183,10 +185,10 @@
                 </button>
             </div>
             <div class="col-lg-2 col-xl-3">
-                <div class="voessen__header__search">
+                <div class="zone__header__search">
                     <form action="">
-                        <input type="text" class="voessen__header__search__inp" placeholder="Поиск">
-                        <button type="submit" class="voessen__header__search__submit">
+                        <input type="text" class="zone__header__search__inp" placeholder="Поиск">
+                        <button type="submit" class="zone__header__search__submit">
                             <svg class="icon--search" width="18" height="18">
                                 <use xlink:href="#svg-search"></use>
                             </svg>
@@ -194,18 +196,18 @@
                     </form>
                 </div>
             </div>
-            <div class="col-xl-7 col-lg-8 d-flex align-items-center voessen__fix-nav__col-right">
-                <div class="voessen__fix-nav__col-phone">
+            <div class="col-xl-7 col-lg-8 d-flex align-items-center zone__fix-nav__col-right">
+                <div class="zone__fix-nav__col-phone">
                     <a href="tel:88005515340" class="tel">8 800 551-53-40</a>
                 </div>
-                <div class="voessen__fix-nav__col-phone">
+                <div class="zone__fix-nav__col-phone">
                     <a href="tel:+74951280758" class="tel">+7 495 128-07-58</a>
                 </div>
-                <div class="voessen__fix-nav__col-shop">
+                <div class="zone__fix-nav__col-shop">
                     <ul class="nav nav__shop align-items-center">
                         <li>
                             <a href="">
-                                <svg class="voessen__header__logo__icon" width="24" height="23">
+                                <svg class="zone__header__logo__icon" width="24" height="23">
                                     <use xlink:href="#svg-fav"></use>
                                 </svg>
                                 <span class="nav__shop__count">2</span>
@@ -213,7 +215,7 @@
                         </li>
                         <li>
                             <a href="">
-                                <svg class="voessen__header__logo__icon" width="24" height="24">
+                                <svg class="zone__header__logo__icon" width="24" height="24">
                                     <use xlink:href="#svg-cart"></use>
                                 </svg>
                                 <span class="nav__shop__count">2</span>
@@ -221,7 +223,7 @@
                         </li>
                         <li>
                             <a href="">
-                                <svg class="voessen__header__logo__icon" width="18" height="23">
+                                <svg class="zone__header__logo__icon" width="18" height="23">
                                     <use xlink:href="#svg-user"></use>
                                 </svg>
                                 <span class="nav__shop__count nav__shop__count--empty"></span>
@@ -231,9 +233,9 @@
                 </div>
             </div>
         </div>
-        <div class="voessen__fix-nav__wrap">
+        <div class="zone__fix-nav__wrap">
             <div class="collapse navbar-collapse " id="fixNavbar">
-                <div class="voessen__fix-nav__wrap__inner">
+                <div class="zone__fix-nav__wrap__inner">
                     <div class="row">
                         <div class="col-lg-4">
                             <ul class="navbar-nav flex-nowrap">
@@ -285,108 +287,83 @@
         </div>
     </div>
 </div>
+*/ ?>
 
-
-<footer class="voessen__footer">
+<footer class="zone__footer">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <ul class="nav flex-column nav--footer">
-                            <li>
-                                <a href="">
-                                    <b>О компании</b>
-                                </a>
-                            </li>
-                            <li><a href="">Реквизиты компании</a></li>
-                            <li><a href="">Поставщикам</a></li>
-                            <li><a href="">Сертфикаты и лицензии</a></li>
-                            <li><a href="">Технические условия</a></li>
-                            <li><a href="">Статьи</a></li>
-                            <li><a href="">Вакансии</a></li>
-                            <li><a href="">Контакты</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="nav flex-column nav--footer">
-                            <li>
-                                <a href="">
-                                    <b>Юридическая информация</b>
-                                </a>
-                            </li>
-                            <li><a href="">Часто задаваемые вопросы</a></li>
-                            <li><a href="">Оформление заказа</a></li>
-                            <li><a href="">Оплата и доставка</a></li>
-                            <li><a href="">Использование информации</a></li>
-                            <li><a href="">Политика конфиденциальности</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="nav flex-column nav--footer">
-                            <li>
-                                <a href="">
-                                    <b>Продукты и услуги</b>
-                                </a>
-                            </li>
-                            <li><a href="">Чистые газы</a></li>
-                            <li><a href="">Газовые смеси</a></li>
-                            <li><a href="">Оборудование</a></li>
-                            <li><a href="">Трубопроводы</a></li>
-                            <li><a href="">Аренда баллонов</a></li>
-                        </ul>
-                    </div>
-                </div>
-
+        <div class="row zone__footer__row">
+            <div class="col-lg-3 col-md-6 order-lg-1 order-md-1">
+                <a href="" class="zone__footer__logo">
+                    <svg width="115" height="130">
+                        <use xlink:href="#logo-footer"></use>
+                    </svg>
+                </a>
             </div>
-            <div class="col-lg-4 col-xl-3 offset-lg-0 offset-xl-1 voessen__footer__contacts">
-                <div class="voessen__footer__col-phone">
-                    <div class="voessen__label">
-                        Для звонков по Москве
-                    </div>
-                    <a href="tel:+74951280758" class="tel">+7 495 128-07-58</a>
-                </div>
-                <div class="voessen__footer__col-phone">
-                    <div class="voessen__label">
-                        Бесплатный звонок по РФ
-                    </div>
-                    <a href="tel:88005515340" class="tel">8 800 551-53-40</a>
-                    <a href="" class="btn-callback">Заказать звонок</a>
-                </div>
-                <div class="voessen__footer__col-phone">
-                    <div class="voessen__label">
-                        График работы
-                    </div>
-                    <div class="voessen__header__work-time">
-                        Пн–Пт 9:00 – 18:00
-                    </div>
-                </div>
-                <ul class="nav nav--footer-soc">
-                    <li>
-                        <a href="" target="_blank" class="nav--footer-soc__item">
-                            <svg width="13" height="24">
-                                <use xlink:href="#svg-face"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank" class="nav--footer-soc__item">
-                            <svg width="24" height="24">
-                                <use xlink:href="#svg-inst"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="col-lg-2 col-md-4 mob-hidden order-lg-2 order-md-3">
+                <nav class="zone__footer__nav">
+                    <div class="zone__footer__nav__caption">Продукция</div>
+                    <ul class="nav nav--footer flex-column">
+                        <li>
+                            <a href="">Кресла</a>
+                        </li>
+                        <li>
+                            <a href="">Гарнитуры</a>
+                        </li>
+                        <li>
+                            <a href="">Мыши</a>
+                        </li>
+                        <li>
+                            <a href="">Клавиатуры</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2 col-md-4 mob-hidden order-lg-3 order-md-4">
+                <nav class="zone__footer__nav">
+                    <div class="zone__footer__nav__caption">О бренде</div>
+                    <ul class="nav nav--footer flex-column">
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="">Где купить</a>
+                        </li>
+                        <li>
+                            <a href="">Гарантия</a>
+                        </li>
+                        <li>
+                            <a href="">Новости</a>
+                        </li>
+                        <li>
+                            <a href="">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 col-md-4 mob-hidden order-lg-4 order-md-5">
+                <nav class="zone__footer__nav">
+                    <div class="zone__footer__nav__caption">Магазин</div>
+                    <ul class="nav nav--footer flex-column">
+                        <li>
+                            <a href="">Оплата и доставка</a>
+                        </li>
+                        <li>
+                            <a href="">Политика конфиденциальности</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2 col-md-6 order-lg-5 order-md-2">
+                <nav class="zone__footer__nav">
+                <?php
+                include __DIR__ . '/socset.php';
+                ?>
+                </nav>
             </div>
         </div>
-        <hr>
-        <div class="voessen__footer__bottom">
-            <a href="" class="voessen__footer__logo">
-                <svg width="154" height="19">
-                    <use xlink:href="#logo-footer"></use>
-                </svg>
-            </a>
-            <span class="voessen__footer__copy">© ООО «Фёссен Эм Ай И», 2015-2021, Все права защищены</span>
+        <div class="zone__footer__bottom">
+            <span class="zone__footer__copy">2021 © ZONE 51</span>
+            <span>Разработка сайта - <a href="" target="_blank">"Клондайк"</a></span>
         </div>
     </div>
 </footer>

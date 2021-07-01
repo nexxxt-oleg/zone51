@@ -2,42 +2,50 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="./css/lib.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>VOESSEN</title>
+    <title>zone</title>
 </head>
-<body class="voessen">
-<div class="voessen__main">
+<body class="zone">
+<div class="zone__main">
     <?php
     include_once __DIR__ . '/inc/header.php'
     ?>
-    <div class="voessen__page404">
-        <div class="container fpad50">
-            <ul class="nav voessen__breadcrumbs">
-                <li><a href="/">Главная</a></li>
-                <li><span>Страница 404</span></li>
+    <div class="zone__page">
+        <div class="container">
+            <ul class="zone__page__breadcrumbs nav">
+                <li>
+                    <a href="/">Z51.ru</a>
+                </li>
+                <li>
+                    <span>Страница 404</span>
+                </li>
             </ul>
-            <div class="row tpad85 fpad80">
-                <div class="col-lg-6 col-xl-5 fpad30">
-                    <div class="h2 fpad30">Похоже, мы не можем найти
-                        нужную вам страницу :(</div>
-                    <a href="/" class="voessen__btn-green">ПЕРЕЙТИ НА ГЛАВНУЮ</a>
+            <div class="row align-items-center fpad100 flex-xl-row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6">
+                    <div class="zone__page__404-desc zone__text">
+                        <h1>Страница не найдена</h1>
+                        <p>Ой! Кажется, мы заблудились.<br>
+                            Вернуться обратно?</p>
+                        <div class="tpad30 zone__page__404-desc__link">
+                            <a href="" class="zone__btn zone__btn--w100">
+                                <span>ВОЗВРАЩАЕМСЯ</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-xl-7 d-flex justify-content-end">
-                    <img
-                            src="./img/404.png"
-                            data-src="./img/404.png"
-                            data-srcset="./img/404@2.png 2x"
-                            alt=""
-                    />
+                <div class="col-lg-6">
+                    <div class="zone__page__404-img">
+                        <img src="./img/404.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <?php
-
     include_once __DIR__ . '/inc/footer.php';
     include_once __DIR__ . '/inc/sprite.php';
     ?>

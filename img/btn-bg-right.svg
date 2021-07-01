@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270.18 72.49">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#dafc01;stroke-miterlimit:10;}.cls-2{fill:#dafc01;}</style>
+    </defs>
+    <g id="Слой_2" data-name="Слой 2">
+        <g id="Режим_изоляции" data-name="Режим изоляции">
+            <path class="cls-1" d="M269.68,72H15.34L.5,57.15V.5H236.58l33.1,33.1Z"/>
+            <polyline class="cls-2" points="251.43 0.5 269.68 0.5 269.68 18.75 251.89 0.95"/>
+        </g>
+    </g>
+</svg>

@@ -120,3 +120,19 @@
     }
   }
 }
+
+
+
+@mixin fonts_f($size, $lineh) {
+  font-size: $size;
+  line-height: $lineh;
+  font-weight: normal;
+  font-family: 'Furore';
+}
+
+@mixin fonts_p($size, $lineh, $wigth) {
+  font-size: $size;
+  line-height: $lineh;
+  font-weight: $wigth;
+  font-family: 'PT Root UI';
+}

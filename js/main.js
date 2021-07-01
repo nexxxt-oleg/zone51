@@ -9,28 +9,34 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    if (document.getElementsByClassName("voessen__slider-product").length) {
-        let swiperCatalog = new Swiper('.voessen__slider-product', {
+    if (document.getElementsByClassName("zone__slider-product").length) {
+        let swiperCatalog = new Swiper('.zone__slider-product', {
             pagination: {},
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
             },
             slidesPerView: 4,
-            lazy: true,
+            //lazy: true,
             observer: true,
             observeParents: true,
+            spaceBetween: 10,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: false,
+            },
             //loop: true,
             //simulateTouch: false,
             breakpoints: {
                 300: {
                     slidesPerView: 'auto',
-                    centeredSlides: true,
+                    //centeredSlides: true,
                     simulateTouch: true,
+                    spaceBetween: 0,
                 },
-                440: {
-                    slidesPerView: 2,
-                    centeredSlides: true,
+                574: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 0,
                     simulateTouch: true,
                 },
                 600: {
@@ -42,20 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 1280: {
                     slidesPerView: 4,
                 },
-            }
+            },
+            on: {
+                init: function () {
+                    setEqualHeight('zone__item-product__desc');
+                },
+            },
         });
-    }
-
-    function countProduct(action, input) {
-        if (document.getElementById(input)) {
-            let count = parseInt(document.getElementById(input).value);
-            if (action == 'plus') {
-                document.getElementById(input).value = count + 1;
-            }
-            if (action == 'minus' && count > 1) {
-                document.getElementById(input).value = count * 1 - 1;
-            }
-        }
     }
 
     function setEqualHeight(elements) {
@@ -67,44 +66,20 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
         for (var i = 0; i < mainDivs.length; ++i) {
-            mainDivs[i].style.height = maxHeight + "px";
+            mainDivs[i].style.minHeight = maxHeight + "px";
         }
     }
 
-    if (window.screen.width < 991) {
-        let menu = new MmenuLight(
-            document.querySelector('#menu'),
-            'all'
-        );
+    if (window.screen.width > 991) {
 
-        let navigator = menu.navigation({
-            // selectedClass: 'Selected',
-            // slidingSubmenus: true,
-            // theme: 'dark',
-            // title: 'Menu'
-        });
-
-        let drawer = menu.offcanvas({
-            // position: 'left'
-        });
-
-        //	Open the menu.
-        document.querySelector('a[href="#menu"]')
-            .addEventListener('click', evnt => {
-                evnt.preventDefault();
-                drawer.open();
-            });
-        document.getElementById('closeNav').addEventListener('click', evnt => {
-            evnt.preventDefault();
-            drawer.close();
-        });
-    } else {
         function getScrollMenu() {
-            let el = document.getElementById('fixNav');
-            if (pageYOffset > 300) {
-                el.classList.add('active');
-            } else {
-                el.classList.remove("active");
+            if(document.getElementById('productDescNav')) {
+                let el = document.getElementById('productDescNav');
+                if (pageYOffset > 300) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove("active");
+                }
             }
         }
 
@@ -115,30 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    var wow = new WOW(
-        {
-            boxClass: 'wow',      // animated element css class (default is wow)
-            animateClass: 'animate__animated', // animation css class (default is animated)
-            offset: 0,          // distance to the element when triggering the animation (default is 0)
-            mobile: true,       // trigger animations on mobile devices (default is true)
-            live: true,       // act on asynchronously loaded content (default is true)
-            callback: function (box) {
-                //box.classList.add("animate__animated");
-            },
-            scrollContainer: null,    // optional scroll container selector, otherwise use window,
-            resetAnimation: true,     // reset animation on end (default is true)
-        }
-    );
-    wow.init();
-
-
-    if (document.getElementById('js-btn-clipboard')) {
-        let clipboard = new ClipboardJS('#js-btn-clipboard');
-        clipboard.on('success', function (e) {
-            alertify.success('Скопирована');
-        });
-    }
-
     if (document.getElementById('lightgallery')) {
         lightGallery(document.getElementById('lightgallery'), {
             download: false,
@@ -147,21 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    if (document.getElementById('jsScrollWrap')) {
-        if (document.getElementById('jsScrollWrap').clientHeight > 200) {
-            document.getElementById('jsScrollWrap').parentNode.style.height = '230px';
-            let jsScrollbar = new MiniBar(document.getElementById("jsScrollWrap"), {});
-        }
-    }
-
-    if (window.innerWidth > 768) {
-        if (document.getElementsByClassName("voessen__section-box__info").length) {
-            let popoverTriggerList = [].slice.call(document.querySelectorAll('.voessen__section-box__info'))
-            let popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
-            });
-        }
-    }
 
     if (document.getElementById('sliderImages')) {
         let sliderImages = new Swiper('#sliderImages', {
