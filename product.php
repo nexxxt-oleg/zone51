@@ -62,7 +62,7 @@
                     </nav>
                 </div>
             </div>
-            <div class=" zone__product__top" id="images">
+            <div class="zone__product__top" id="images">
                 <div class="container">
                     <div class="row d-block">
                         <div class="col-lg-5 float-right">
@@ -77,10 +77,153 @@
                             </div>
                         </div>
                         <div class="col-lg-7 float-left">
-
+                            <div class="zone__product__slider">
+                                <div class="zone__product__slider__min-img">
+                                    <div class="zone__product-thumbnail">
+                                        <div class="swiper-container" id="sliderProductThumbnail">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <figure class="zone__product-thumbnail__item">
+                                                        <img src="./img/prod_mob.png" alt="">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="zone__product__slider__big-img">
+                                    <ul class="zone__product__label nav flex-column">
+                                        <li>
+                                            <span class="zone__product__label__sale">%</span>
+                                        </li>
+                                    </ul>
+                                    <div class="zone__product-pic">
+                                        <div class="swiper-container" id="sliderProductPic">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="./img/prod.png" class="zone__product-pic__item">
+                                                        <img src="./img/prod.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="button-next zone__product-pic__slider__nav">
+                                                <svg width="15" height="24">
+                                                    <use xlink:href="#svg-next"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="button-prev zone__product-pic__slider__nav">
+                                                <svg width="15" height="24">
+                                                    <use xlink:href="#svg-prev"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-5 float-right">
-                            ЦВЕТ
+                            <div class="fonts16 tpad25 fpad25">ЦВЕТ</div>
+                            <div class="row fpad20">
+                                <div class="col-6 fpad15">
+                                    <label class="zone__product__color active">
+                                        <img src="./img/color1.jpg" alt="">
+                                        <span>YELLOW-BLUE</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 fpad15">
+                                    <label class="zone__product__color">
+                                        <img src="./img/color2.jpg" alt="">
+                                        <span>BLUE-YELLOW</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 fpad15">
+                                    <label class="zone__product__color">
+                                        <img src="./img/color1.jpg" alt="">
+                                        <span>FUCHSIA-CYAN</span>
+                                    </label>
+                                </div>
+                                <div class="col-6 fpad15">
+                                    <label class="zone__product__color">
+                                        <img src="./img/color2.jpg" alt="">
+                                        <span>CYAN-FUCHSIA</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="zone__product__price">
+                                        <div class="zone__product__price__old-value">33 000 <span class="b-rub">Р</span>
+                                        </div>
+                                        <div class="zone__product__price__value">30 000 <span class="b-rub">Р</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <button class="zone__btn zone__btn--w100 zone__btn--h60">
+                                        <span>В КОРЗИНУ</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-12 clearfix"></div>
@@ -89,11 +232,40 @@
             </div>
 
             <div id="properties" class="zone__product__properties container">
-                <div class="zone__product__properties__item">
+                <div style="background-image: url(./img/bg-prop1.jpg)"
+                        class="zone__product__properties__item zone__product__properties__item--text-left">
                     <div class="row">
-                        <div class="col-xl-4 zone__text">
-                            <h2>НАСТРАИВАЕМЫЕ<br>
-                                4D ПОДЛОКОТНИКИ</h2>
+                        <div class="col-xl-5">
+                            <div class="zone__text zone__product__properties__item__desc">
+                                <h2>НАСТРАИВАЕМЫЕ<br>
+                                    4D ПОДЛОКОТНИКИ</h2>
+                                <p>Эргономичные кресла Cyberpunk регулируются в четырех положениях, позволяя снизить
+                                    нагрузку на предплечья и избавиться от неприятных ощущений в плечах.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-image: url(./img/bg-prop2.jpg)"
+                        class="zone__product__properties__item zone__product__properties__item--text-right">
+                    <div class="row flex-row-reverse">
+                        <div class="col-xl-5">
+                            <div class="zone__text zone__product__properties__item__desc">
+                                <h2>НАСТРАИВАЕМАЯ<br>
+                                    ВЫСОТА</h2>
+                                <p>Широкий диапазон регулировок высоты позволяет быть на оптимальном уровне по отношению к вашему рабочему столу и ПК. Кресло Cyberpunk обладает эргономичной конструкцией, подходящей для людей любого роста и комплекции.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-image: url(./img/bg-prop3.jpg)"
+                        class="zone__product__properties__item zone__product__properties__item--text-left">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <div class="zone__text zone__product__properties__item__desc">
+                                <h2>НАСТРАИВАЕМАЯ<br>
+                                    СПИНКА</h2>
+                                <p>Независимая регулировка спинки позволяет подобрать идеальное положение именно под ваши потребности. Угол регулировки — от 90° до 160° градусов.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,6 +283,16 @@
             <div class="zone__product__sizes" id="sizes">
                 <div class="container">
                     <h2 class="zone__title-line">Размеры</h2>
+
+
+
+                    <div id="slider" class="beer-slider" data-beer-label="before">
+                        <img src="./img/sizes-after.png" alt="">
+                        <div class="beer-reveal" data-beer-label="after">
+                            <img src="./img/sizes-before.png" alt="">
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -205,5 +387,7 @@
 <?php
 include_once __DIR__ . '/inc/script.php';
 ?>
+<script src="./js/product.js"></script>
+
 </body>
 </html>
