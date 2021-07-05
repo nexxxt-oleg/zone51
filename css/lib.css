@@ -5634,11 +5634,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-outer .lg-img-wrap {
     position: absolute;
-    padding: 0 5px;
+    padding: 0 5px 30px;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0
+    bottom: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
 
 .lg-outer .lg-item.lg-complete {

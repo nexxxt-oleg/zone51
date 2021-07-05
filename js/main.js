@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         function getScrollMenu() {
             if(document.getElementById('productDescNav')) {
                 let el = document.getElementById('productDescNav');
-                if (pageYOffset > 300) {
+                if (pageYOffset > 250) {
                     el.classList.add('active');
                 } else {
                     el.classList.remove("active");
@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.addEventListener('scroll', function () {
             getScrollMenu();
         });
+
     }
 
 
@@ -155,4 +156,13 @@ function getFileName() {
     let file = document.getElementById('uploaded-file').value;
     file = file.replace(/\\/g, '/').split('/').pop();
     document.getElementById('file-name').innerHTML = 'Имя файла: ' + file;
+}
+
+
+
+function hoverMenu(e) {
+    if (window.screen.width > 991) {
+        let searchDropdown = new bootstrap.Dropdown(e.firstElementChild)
+        searchDropdown.toggle();
+    }
 }

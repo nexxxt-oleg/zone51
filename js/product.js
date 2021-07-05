@@ -1090,12 +1090,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     nextEl: ".button-next",
                     prevEl: ".button-prev",
                 },
+                loop: true,
             },
-            768: {
+            574: {
                 navigation: {
                     nextEl: ".button-next",
                     prevEl: ".button-prev",
                 },
+                loop: true,
             },
         },
         on: {
@@ -1108,6 +1110,57 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         },
     });
+    if (window.screen.width > 768) {
+        new BeerSlider(document.getElementById('slider'));
+    }
 
-    new BeerSlider(document.getElementById('slider'));
+    if (document.getElementById('mobGallery')) {
+        lightGallery(document.getElementById('mobGallery'), {
+            download: false,
+            counter: false,
+            selector: 'a'
+        });
+    }
+    /*
+        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#productDescNav',
+            offset: 50
+        });
+
+        setTimeout(() => {
+
+        }, 1000);
+
+        //let ss = bootstrap.ScrollSpy.getInstance(document.getElementById('scrollBody'));
+
+        scrollSpy.refresh();
+        //document.getElementById('scrollBody').scrollspy('refresh');
+    */
+
+    let section = document.querySelectorAll(".zone__section");
+    let sections = {};
+    let i = 0;
+
+    Array.prototype.forEach.call(section, function(e) {
+        sections[e.id] = e.offsetTop;
+    });
+
+    window.onscroll = function() {
+        let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+        for (i in sections) {
+            if (sections[i] <= scrollPosition) {
+                //console.log(i);
+                let scrollNavActiveItem = document.querySelector('a[href*=' + i + ']');
+                if(scrollNavActiveItem.classList.contains('active')) {
+
+                } else {
+                    document.querySelector('.slon__main__anchor.active').classList.remove('active');
+                    scrollNavActiveItem.classList.add('active');
+                }
+                //document.querySelector('.active').setAttribute('class', ' ');
+                //document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
+            }
+        }
+    };
 });

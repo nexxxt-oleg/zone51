@@ -24,9 +24,14 @@
                     </div>
                 </div>
                 <ul class="nav zone__header__menu align-items-center">
-                    <li class="dropdown">
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
-                           id="dropdownMenuLink">Продукция</a>
+                    <li class="dropdown"
+                        onmouseenter="hoverMenu(this)"
+                        onmouseleave="hoverMenu(this)"
+                    >
+                        <a href="" class="dropdown-toggle"
+                           data-toggle="dropdown" aria-expanded="false"
+                           id="dropdownMenuLink"
+                        >Продукция</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="#">Гарнитуры</a></li>
                             <li><a class="dropdown-item" href="#">Клавиатуры</a></li>
@@ -35,9 +40,14 @@
                             <li><a class="dropdown-item" href="#">Микрофоныи</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
-                           id="dropdownMenuLink2">О бренде</a>
+                    <li class="dropdown"
+                        onmouseenter="hoverMenu(this)"
+                        onmouseleave="hoverMenu(this)"
+                    >
+                        <a href="" class="dropdown-toggle"
+                           data-toggle="dropdown" aria-expanded="false"
+                           id="dropdownMenuLink2"
+                        >О бренде</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
                             <li><a class="dropdown-item" href="#">Контакты</a></li>
                             <li><a class="dropdown-item" href="#">Где купить</a></li>
