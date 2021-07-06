@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>zone</title>
 </head>
-<body id="scrollBody2" class="zone" >
+<body id="scrollBody2" class="zone">
 <div class="zone__main">
     <?php
     include_once __DIR__ . '/inc/header.php'
@@ -610,110 +610,312 @@
 
                     <div class="swiper-container" id="mobGallery">
                         <div class="swiper-wrapper row zone__product__gallery__row">
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p1.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p1.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p2.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p2.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p3.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p3.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p1.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p1.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p1.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p1.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="zone__product__gallery__item col-lg-4 col-sm-6">
+                            <div class="zone__product__gallery__item swiper-slide col-lg-4 col-sm-6">
                                 <a href="/img/prop-p1.jpg" class="zone__product__gallery__item__link">
                                     <img src="./img/prop-p1.jpg" alt="">
                                 </a>
                             </div>
                         </div>
+                        <div class="button-next zone__product__gallery__slider__nav">
+                            <svg width="15" height="24">
+                                <use xlink:href="#svg-next"></use>
+                            </svg>
+                        </div>
+                        <div class="button-prev zone__product__gallery__slider__nav">
+                            <svg width="15" height="24">
+                                <use xlink:href="#svg-prev"></use>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container zone__product__compare zone__section" id="compare">
-                <h2 class="zone__title-line2">СРАВНЕНИЕ</h2>
+            <div class="zone__product__compare zone__section" id="compare">
+                <div class="container">
+                    <h2 class="zone__title-line2">СРАВНЕНИЕ</h2>
+                </div>
+                <div class="zone__product__compare__sliders">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 position-relative">
+                                <div class="zone__product__compare__switch">
+                                    <div class="zone__product__compare__switch__caption">Сравнение характеристик</div>
+                                    <label class="zone__product__compare__switch__label">
+                                        <input type="checkbox" value="1" name="compare">
+                                        <span>Только различающиеся</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-6 zone__mob-no-pad">
+                                <div class="zone__product__compare__wrap">
+                                    <div class="swiper-container" id="compareSlider1">
+                                        <div class="swiper-wrapper">
+                                            <?php
+                                            function compare_item($n)
+                                            {
+                                                echo '<div class="swiper-slide">
+                                        <div class="zone__product__compare__item">
+                                            <div class="zone__product__compare__item__top">
+                                                <figure class="zone__item-product__img">
+                                                    <img
+                                                            src="./img/t1.png"
+                                                            data-src="./img/t1.png"
+                                                            data-srcset="./img/t1@2.png 2x"
+                                                            alt=""
+                                                    />
+                                                </figure>
+                                                <div class="zone__item-product__desc">
+                                                    <div class="zone__item-product__title">
+                                                        Кресло ZONE 51 Gravity
+                                                    </div>
+                                                    <div class="zone__item-product__price">
+
+                                                        <div class="zone__product__price__value">
+                                                            30 000 <span class="b-rub">Р</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="zone__product__compare__item__mob-nav">
+                                                    <div class="zone__product__compare__item-nav button-prev">
+                                                        <svg width="7" height="12">
+                                                            <use xlink:href="#svg-prev"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="zone__product__compare__item__mob-nav__page">
+                                                        ' . $n . ' <span>/</span> 5
+                                                    </div>
+                                                    <div class="zone__product__compare__item-nav button-next">
+                                                        <svg width="7" height="12">
+                                                            <use xlink:href="#svg-next"></use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="nav zone__product__compare__item__props-list">
+                                                <li>
+                                                    <dl class="zone__product__compare__item__props" data-row="1">
+                                                        <dt>Артикул</dt>
+                                                        <dd>
+                                                            Z51-CBP-YB
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl class="zone__product__compare__item__props" data-row="2">
+                                                        <dt>Бренды</dt>
+                                                        <dd>
+                                                            ZONE 51
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl class="zone__product__compare__item__props" data-row="3">
+                                                        <dt>Настраиваемые подлокотники</dt>
+                                                        <dd>
+                                                            Да, в четырех направлениях (4D)
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl class="zone__product__compare__item__props" data-row="4">
+                                                        <dt>Yellow-Blue</dt>
+                                                        <dd>
+                                                            Да, в четырех направлениях (4D) Да, в четырех направлениях (4D)
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl class="zone__product__compare__item__props" data-row="5">
+                                                        <dt>Yellow-Blue</dt>
+                                                        <dd>
+                                                            Z51-CBP-YB
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>';
+                                            }
+
+                                            for ($n = 1; $n <= 5; $n++) {
+                                                compare_item($n);
+                                            }
+                                            ?>
+                                        </div>
+                                        <div class="zone__product__compare__nav-pc button-prev">
+                                            <svg width="15" height="24">
+                                                <use xlink:href="#svg-prev"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="zone__product__compare__nav-pc button-next">
+                                            <svg width="15" height="24">
+                                                <use xlink:href="#svg-next"></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="zone__mob-col-comapre2 col-6 zone__mob-no-pad">
+                                <div class="zone__product__compare__wrap">
+                                    <div class="swiper-container" id="compareSlider2">
+                                        <div class="swiper-wrapper">
+                                            <?php
+                                            for ($n = 1; $n <= 5; $n++) {
+                                                compare_item($n);
+                                            }
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <? /*
+                    <div class="zone__bg-props-mob">
+                        <div class="zone__bg-props-mob__item">
+                            <div class="zone__product__compare__item__props" data-row="1"></div>
+                        </div>
+                        <div class="zone__bg-props-mob__item">
+                            <div class="zone__product__compare__item__props" data-row="2"></div>
+                        </div>
+                        <div class="zone__bg-props-mob__item">
+                            <div class="zone__product__compare__item__props" data-row="3"></div>
+                        </div>
+                        <div class="zone__bg-props-mob__item">
+                            <div class="zone__product__compare__item__props" data-row="4"></div>
+                        </div>
+                        <div class="zone__bg-props-mob__item">
+                            <div class="zone__product__compare__item__props" data-row="5"></div>
+                        </div>
+                    </div>
+ */ ?>
+                </div>
             </div>
 
 
             <div class="container zone__product__overview zone__section" id="overview">
-                <h2 class="zone__title-line">ОБЗОРЫ</h2>
-                <div class="row news">
-                    <div class="col-lg-4 fpad20">
-                        <a href="" class="news__item">
-                            <figure class="news__item__pic">
-                                <img
-                                        src="./img/n1.jpg"
-                                        data-src="./img/n1.jpg"
-                                        data-srcset="./img/n1@2.jpg 2x"
-                                        loading="lazy"
-                                        alt=""
-                                />
-                                <span class="news__item__date">01.04.2021</span>
-                            </figure>
-                            <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
-                            <div class="news__item__preview">
-                                Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
-                                два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
-                                рассмотрена старшая модель под названием «Спартак Легенда».
+                <h2 class="zone__title-line2">ОБЗОРЫ</h2>
+                <div class="zone__news-slider">
+                    <div class="swiper-container" id="newsSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="news__item">
+                                    <figure class="news__item__pic">
+                                        <img
+                                                src="./img/n1.jpg"
+                                                data-src="./img/n1.jpg"
+                                                data-srcset="./img/n1@2.jpg 2x"
+                                                loading="lazy"
+                                                alt=""
+                                        />
+                                        <span class="news__item__date">01.04.2021</span>
+                                    </figure>
+                                    <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
+                                    <div class="news__item__preview">
+                                        Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
+                                        два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
+                                        рассмотрена старшая модель под названием «Спартак Легенда».
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 fpad20">
-                        <a href="" class="news__item">
-                            <figure class="news__item__pic">
-                                <img
-                                        src="./img/n1.jpg"
-                                        data-src="./img/n1.jpg"
-                                        data-srcset="./img/n1@2.jpg 2x"
-                                        loading="lazy"
-                                        alt=""
-                                />
-                                <span class="news__item__date">01.04.2021</span>
-                            </figure>
-                            <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
-                            <div class="news__item__preview">
-                                Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
-                                два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
-                                рассмотрена старшая модель под названием «Спартак Легенда».
+                            <div class="swiper-slide">
+                                <a href="" class="news__item">
+                                    <figure class="news__item__pic">
+                                        <img
+                                                src="./img/n1.jpg"
+                                                data-src="./img/n1.jpg"
+                                                data-srcset="./img/n1@2.jpg 2x"
+                                                loading="lazy"
+                                                alt=""
+                                        />
+                                        <span class="news__item__date">01.04.2021</span>
+                                    </figure>
+                                    <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
+                                    <div class="news__item__preview">
+                                        Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
+                                        два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
+                                        рассмотрена старшая модель под названием «Спартак Легенда».
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 fpad20">
-                        <a href="" class="news__item">
-                            <figure class="news__item__pic">
-                                <img
-                                        src="./img/n1.jpg"
-                                        data-src="./img/n1.jpg"
-                                        data-srcset="./img/n1@2.jpg 2x"
-                                        loading="lazy"
-                                        alt=""
-                                />
-                                <span class="news__item__date">01.04.2021</span>
-                            </figure>
-                            <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
-                            <div class="news__item__preview">
-                                Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
-                                два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
-                                рассмотрена старшая модель под названием «Спартак Легенда».
+                            <div class="swiper-slide">
+                                <a href="" class="news__item">
+                                    <figure class="news__item__pic">
+                                        <img
+                                                src="./img/n1.jpg"
+                                                data-src="./img/n1.jpg"
+                                                data-srcset="./img/n1@2.jpg 2x"
+                                                loading="lazy"
+                                                alt=""
+                                        />
+                                        <span class="news__item__date">01.04.2021</span>
+                                    </figure>
+                                    <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
+                                    <div class="news__item__preview">
+                                        Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
+                                        два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
+                                        рассмотрена старшая модель под названием «Спартак Легенда».
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div class="swiper-slide">
+                                <a href="" class="news__item">
+                                    <figure class="news__item__pic">
+                                        <img
+                                                src="./img/n1.jpg"
+                                                data-src="./img/n1.jpg"
+                                                data-srcset="./img/n1@2.jpg 2x"
+                                                loading="lazy"
+                                                alt=""
+                                        />
+                                        <span class="news__item__date">01.04.2021</span>
+                                    </figure>
+                                    <h2 class="news__item__title">Обзор кресла «Спартак Легенда» марки Zone 51</h2>
+                                    <div class="news__item__preview">
+                                        Новый бренд Zone 51 появился на российском рынке игровых кресел эффектно, представив
+                                        два кресла с символикой футбольного клуба «Спартак-Москва». В данном обзоре будет
+                                        рассмотрена старшая модель под названием «Спартак Легенда».
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="zone__news-slider__nav zone__news-slider__nav--prev">
+                        <svg width="15" height="24">
+                            <use xlink:href="#svg-prev"></use>
+                        </svg>
+                    </div>
+                    <div class="zone__news-slider__nav zone__news-slider__nav--next">
+                        <svg width="15" height="24">
+                            <use xlink:href="#svg-next"></use>
+                        </svg>
+                    </div>
                 </div>
             </div>
 

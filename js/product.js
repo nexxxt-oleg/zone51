@@ -1110,16 +1110,39 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         },
     });
+
     if (window.screen.width > 768) {
         new BeerSlider(document.getElementById('slider'));
     }
 
     if (document.getElementById('mobGallery')) {
-        lightGallery(document.getElementById('mobGallery'), {
-            download: false,
-            counter: false,
-            selector: 'a'
-        });
+
+        if (window.screen.width < 575) {
+            new Swiper("#mobGallery", {
+                navigation: {
+                    nextEl: ".button-next",
+                    prevEl: ".button-prev",
+                },
+                loop: true,
+                on: {
+                    init: function () {
+                        lightGallery(document.getElementById('mobGallery'), {
+                            download: false,
+                            counter: false,
+                            selector: 'a'
+                        });
+                    }
+                },
+            });
+        } else {
+            lightGallery(document.getElementById('mobGallery'), {
+                download: false,
+                counter: false,
+                selector: 'a'
+            });
+        }
+
+
     }
     /*
         const scrollSpy = new bootstrap.ScrollSpy(document.body, {
@@ -1141,18 +1164,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let sections = {};
     let i = 0;
 
-    Array.prototype.forEach.call(section, function(e) {
+    Array.prototype.forEach.call(section, function (e) {
         sections[e.id] = e.offsetTop;
     });
 
-    window.onscroll = function() {
+    window.onscroll = function () {
         let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
         for (i in sections) {
             if (sections[i] <= scrollPosition) {
                 //console.log(i);
                 let scrollNavActiveItem = document.querySelector('a[href*=' + i + ']');
-                if(scrollNavActiveItem.classList.contains('active')) {
+                if (scrollNavActiveItem.classList.contains('active')) {
 
                 } else {
                     document.querySelector('.slon__main__anchor.active').classList.remove('active');
@@ -1163,4 +1186,111 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     };
+
+
+    function setEqualHeight(elements) {
+        let mainDivs = document.querySelectorAll(elements);
+        let maxHeight = 0;
+        for (let i = 0; i < mainDivs.length; ++i) {
+            if (maxHeight < mainDivs[i].clientHeight) {
+                maxHeight = mainDivs[i].clientHeight;
+            }
+        }
+
+        for (let i = 0; i < mainDivs.length; ++i) {
+            mainDivs[i].style.minHeight = maxHeight + "px";
+        }
+        mainDivs = '';
+    }
+
+    if (document.getElementById('compareSlider1')) {
+        let compare1 = new Swiper("#compareSlider1", {
+            spaceBetween: 30,
+            slidesPerView: 4,
+            navigation: {
+                nextEl: "#compareSlider1 .button-next",
+                prevEl: "#compareSlider1 .button-prev",
+            },
+            breakpoints: {
+                220: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                574: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+            on: {
+                init: function () {
+
+                }
+            },
+        });
+    }
+
+    if (document.getElementById('compareSlider2') && window.screen.width < 768) {
+        let compare2 = new Swiper("#compareSlider2", {
+
+            slidesPerView: 1,
+            navigation: {
+                nextEl: "#compareSlider2 .button-next",
+                prevEl: "#compareSlider2 .button-prev",
+            },
+
+            on: {
+                init: function () {
+                    let propsCompare = document.querySelectorAll('#compareSlider2 .swiper-wrapper .swiper-slide:first-child .zone__product__compare__item__props');
+                    //console.log(propsCompare);
+                    [].forEach.call(propsCompare, el => {
+                        //console.log(el.dataset.row);
+                        setEqualHeight('.zone__product__compare__item__props[data-row="' + el.dataset.row + '"]');
+                    });
+                }
+            },
+        });
+        compare2.slideTo(1);
+
+    }
+
+    if (document.getElementById('newsSlider')) {
+        let compare1 = new Swiper("#newsSlider", {
+            spaceBetween: 30,
+            slidesPerView: 3,
+            loop: true,
+            navigation: {
+                nextEl: ".zone__news-slider__nav--next",
+                prevEl: ".zone__news-slider__nav--prev",
+            },
+            breakpoints: {
+                220: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                574: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+            },
+
+        });
+    }
+
+
 });
