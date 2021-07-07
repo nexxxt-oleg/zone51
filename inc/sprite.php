@@ -96,6 +96,15 @@
             <line fill="none" stroke-miterlimit="10" stroke="currentColor" x1="10.24" y1="20.48" x2="10.24"/>
         </symbol>
 
+        <symbol id="svg-file" viewBox="0 0 402.29 512">
+            <path fill="#181818" d="M0,365.71H146.29V512h256V0H0Z"/>
+            <path fill="#181818" d="M10.71,402.29l99,99v-99Z"/>
+            <polygon fill="#dafc01"
+                     points="201.14 315.5 267.41 240.35 224.5 240.35 224.5 156.5 177.73 156.5 177.73 240.35 134.87 240.35 201.14 315.5"/>
+        </symbol>
+
+
+
     </svg>
 
 

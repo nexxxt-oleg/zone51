@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>zone</title>
 </head>
-<body id="scrollBody2" class="zone">
+<body class="zone">
 <div class="zone__main">
     <?php
     include_once __DIR__ . '/inc/header.php'
@@ -37,7 +37,7 @@
             <div class="zone__product__navigation" id="productDescNav">
                 <div class="container">
                     <nav class="navbar">
-                        <ul class="nav">
+                        <ul class="nav w-100">
                             <li class="nav-item">
                                 <a href="#images" class="nav-link slon__main__anchor active">Изображения</a>
                             </li>
@@ -58,6 +58,14 @@
                             </li>
                             <li class="nav-item">
                                 <a href="#overview" class="nav-link slon__main__anchor">ОБЗОРЫ</a>
+                            </li>
+                            <li class="ml-auto nav-item">
+                                <a href="" download="" class="nav-link">
+                                    <svg width="19" height="24" class="mr-10">
+                                        <use xlink:href="#svg-file"></use>
+                                    </svg>
+                                    Инструкция
+                                </a>
                             </li>
                         </ul>
 

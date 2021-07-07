@@ -31,11 +31,11 @@
         </div>
         <div class="container">
             <div class="zone__page__date-top">
-                <span class="news__item__date news__item__date--black">01.04.2021</span>
+                <span class="news__item__date ">01.04.2021</span>
             </div>
         </div>
         <figure class="zone__page__full-img">
-            <img src="./img/blog1.jpg" alt="">
+            <img src="./img/news1.jpg" alt="">
         </figure>
         <div class="container fpad100 zone__text">
             <p>Кресло Gravity создано с прицелом на долгосрочное использование и идеально подходит для дома, офиса или
@@ -144,8 +144,8 @@
             <div class="row">
                 <div class="col-12 tpad50">
                     <div class="zone__return-back">
-                        <a href="" class="zone__btn">
-                            <span>Вернуться в блог</span>
+                        <a href="" class="zone__btn ">
+                            <span>Вернуться к НОВОСТЯМ</span>
                         </a>
                     </div>
                 </div>

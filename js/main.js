@@ -149,6 +149,15 @@ document.addEventListener("DOMContentLoaded", () => {
             },
         });
     }
+
+    document.getElementById('jsOpenFilter').addEventListener('click', evnt => {
+        evnt.preventDefault();
+        document.getElementById('mobFilter').classList.add('open');
+    });
+    document.getElementById('jsCloseFilter').addEventListener('click', evnt => {
+        evnt.preventDefault();
+        document.getElementById('mobFilter').classList.remove('open');
+    });
 });
 
 

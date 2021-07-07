@@ -240,6 +240,7 @@ body {
     height: 48px;
     background: url("../img/btn-bg.svg") 0 50% no-repeat;
     background-size: auto 48px;
+    text-align: center;
 
     align-items: center;
     @include fonts_f(18px, 20px);
@@ -369,13 +370,14 @@ body {
     justify-content: center;
     height: 250px;
     position: relative;
+    z-index: 1;
     img {
       max-height: 100%;
       max-width: 100%;
       height: auto;
       width: auto;
       position: relative;
-      z-index: 100;
+      z-index: 5;
     }
     &::after {
       content: "";
@@ -850,8 +852,8 @@ img {
   padding-top: 50px;
 }
 .zone__return-back {
-  max-width: 280px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .zone__page--guarantee {
   padding-bottom: 60px;
@@ -1743,7 +1745,8 @@ img {
     margin: 20px 0 0 20px;
   }
 }
-.zone__mob-toggle {
+.zone__mob-toggle,
+.zone__filter-sb__mob-title {
   display: none;
 }
 .zone__filter-sb {
@@ -1850,6 +1853,90 @@ img {
   &:hover {
     span {
       color: #fff;
+    }
+  }
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.zone__filter-sb__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+.zone__filter-sb__remove {
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+  text-decoration: none;
+  &__pc {
+    color: #898989;
+    @include fonts_f(14px, 16px);
+    text-transform: uppercase;
+    border-bottom: 1px dotted #898989;
+  }
+  &__mob {
+    display: none;
+  }
+  &:hover {
+    .zone__filter-sb__remove__pc {
+      color: #fff;
+      border-bottom: 1px dotted #fff;
+    }
+  }
+}
+.zona__contacts {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #2e2e2e;
+  margin-bottom: 25px;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 0;
+    border-bottom: 3px solid #2e2e2e;
+    border-left: 3px solid transparent;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+  }
+}
+.fonts24 {
+  color: #fff;
+  @include fonts_f(24px, 26px);
+  text-transform: uppercase;
+}
+.zona__contacts__item {
+  padding-left: 70px;
+  background-repeat: no-repeat;
+  &--address {
+    background-image: url(../img/address.svg);
+    background-size: 25px 28px;
+    background-position: 22px 3px;
+  }
+  &--phone {
+    background-image: url(../img/tel.svg);
+    background-size: 14px 24px;
+    background-position: 25px 0;
+    a {
+      color: #fff;
+      @include fonts_p(24px, 1, bold);
+      text-decoration: none;
+      display: block;
+    }
+  }
+  &--email {
+    background-image: url(../img/email.svg);
+    background-size: 24px 20px;
+    background-position: 22px 6px;
+    a {
+      text-decoration: none;
     }
   }
 }
