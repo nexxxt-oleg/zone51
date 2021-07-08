@@ -343,6 +343,7 @@
                 <style>
                     .zone__product__banner {
                         background-image: url("./img/banner.jpg");
+                        background-color: #002059;
                     }
 
                     @media screen and (max-width: 768px) {

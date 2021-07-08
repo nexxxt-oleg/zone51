@@ -371,7 +371,34 @@
     padding-top: 10px;
     padding-bottom: 50px;
   }
+  .lpad35 {
+    padding-left: 0;
+  }
+  .zone__brands-desc {
+    padding-top: 0;
+  }
+  .zone__brands-desc__img {
+    display: block;
+    margin-top: 20px;
+  }
+  .zone__page--brand {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .zone__adv-ico {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .zone__brends-bord {
+    padding: 30px 0;
+  }
 }
+
 
 @media screen and (max-width: 767px) {
   .zone__header__menu > li > a {
@@ -678,6 +705,30 @@
   }
   .zona__contacts__item--email {
     background-position: 0 3px;
+  }
+  .h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .zone__btn-anchor {
+    display: none;
+  }
+  .zone__tab-top .nav-tabs {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .nav-item {
+      &:not(:last-child) {
+          margin-right: 0;
+      }
+      a {
+        height: auto;
+        min-height: 46px;
+        padding: 10px 0;
+      }
+    }
+  }
+  .fpad70 {
+    padding-bottom: 30px;
   }
 }
 

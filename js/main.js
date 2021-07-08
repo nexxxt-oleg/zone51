@@ -150,14 +150,35 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    document.getElementById('jsOpenFilter').addEventListener('click', evnt => {
-        evnt.preventDefault();
-        document.getElementById('mobFilter').classList.add('open');
-    });
-    document.getElementById('jsCloseFilter').addEventListener('click', evnt => {
-        evnt.preventDefault();
-        document.getElementById('mobFilter').classList.remove('open');
-    });
+
+    if(document.getElementById('jsOpenFilter')) {
+        document.getElementById('jsOpenFilter').addEventListener('click', evnt => {
+            evnt.preventDefault();
+            document.getElementById('mobFilter').classList.add('open');
+        });
+        document.getElementById('jsCloseFilter').addEventListener('click', evnt => {
+            evnt.preventDefault();
+            document.getElementById('mobFilter').classList.remove('open');
+        });
+    }
+
+    if(document.getElementById('oplataTab')) {
+        let tabEl =  document.getElementsByClassName('zone__link-tab');
+        let activeTab = document.getElementById('activeTab');
+        let leftContent = document.getElementById('oplataTab').getBoundingClientRect().left;
+        for (let i = tabEl.length - 1; i >= 0; i--) {
+            tabEl[i].addEventListener('shown.bs.tab', function (event) {
+                event.target // newly activated tab
+                event.relatedTarget // previous active tab
+                let leftPositionLine = tabEl[i].getBoundingClientRect().left - leftContent;
+                //console.log(leftContent);
+                activeTab.style.left = leftPositionLine + 'px';
+                activeTab.style.width = tabEl[i].offsetWidth + 'px';
+            });
+        }
+        activeTab.style.width = document.getElementById('oplataTab').firstElementChild.offsetWidth + 'px';
+    }
+
 });
 
 
