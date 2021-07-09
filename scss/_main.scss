@@ -2130,3 +2130,237 @@ img {
     }
   }
 }
+.zone__cart__item {
+  margin-top: 10px;
+  background-color: #1e1e1e;
+  position: relative;
+
+  .zone__product__label {
+    margin: 15px 0 0 15px;
+  }
+  &__row {
+    align-items: center;
+  }
+  .zone__item-product__img {
+    height: 170px;
+    overflow: hidden;
+    &::after {
+      box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.75);
+    }
+  }
+  .zone__item-product__title {
+    flex-basis: 60%;
+    max-width: 60%;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-bottom: 0;
+    &:hover {
+      color: $orange;
+    }
+  }
+  &__col-color {
+    flex-basis: 20%;
+    max-width: 20%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+    }
+  }
+  &__col-price {
+    flex-basis: 20%;
+    max-width: 20%;
+    margin-left: auto;
+  }
+  .zone__product__price__old-value {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 0;
+  }
+  .zone__product__price__value {
+    color: #fff !important;
+    font-size: 18px;
+    line-height: 24px;
+
+  }
+}
+.zone__cart__item__col-itog-price {
+  position: relative;
+  padding-right: 80px;
+  .zone__cart__item__col-count {
+    flex-basis: 50%;
+    max-width: 50%;
+    .zone__box-quantity {
+      margin: 0 auto;
+    }
+  }
+  .zone__cart__item__col-itog-price {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 10px;
+  }
+  .zone__cart__item__del {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #878787;
+    right: 40px;
+    top: 50%;
+    margin-top: -20px;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.zone__box-quantity {
+  display: flex;
+  width: 120px;
+  height: 48px;
+  background-color: #181818;
+  &__nav {
+    display: block;
+    position: relative;
+    height: 48px;
+    max-width: 48px;
+    flex-basis: 48px;
+    cursor: pointer;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      width: 12px;
+      height: 2px;
+      background-color: #878787;
+      margin: -1px 0 0 -6px;
+    }
+    &--plus {
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        width: 2px;
+        height: 12px;
+        background-color: #878787;
+        margin: -6px 0 0 -1px;
+      }
+    }
+    &:hover {
+      &::after,
+      &::before {
+        background-color: #fff;
+      }
+    }
+  }
+  &__inp {
+    flex-basis: 30px;
+    flex-grow: 1;
+    width: 100%;
+    height: 48px;
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: #fff;
+    @include fonts_p(14px, 48px, 400);
+  }
+}
+.zone__cart__footer {
+  margin-left: auto;
+  border-top: 1px solid $orange;
+  padding: 25px 0 0 0;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 300px;
+  max-width: 415px;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 0;
+    border-top: 3px solid #dafc01;
+    border-right: 3px solid transparent;
+  }
+  &__btn {
+    padding-top: 15px;
+  }
+}
+.zone__cart__footer__row {
+  margin: 0 0 15px 0;
+  display: flex;
+  align-items: center;
+  dt {
+    flex-basis: 160px;
+    @include fonts_p(16px, 24px, 400);
+    color: #fff;
+    b {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .zone__cart__footer__count {
+      margin-left: 3px;
+      @include fonts_f(16px, 24px);
+      color: $orange;
+    }
+  }
+  dd {
+    flex-basis: 160px;
+    flex-grow: 1;
+    @include fonts_p(16px, 24px, 400);
+    color: #fff;
+    text-align: left;
+    b {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
+.zone__cart__promo {
+  padding: 30px 0;
+  &__caption {
+    @include fonts_f(16px, 24px);
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  &__form {
+    display: flex;
+    &__inp {
+      flex-basis: 150px;
+      flex-grow: 1;
+      padding-right: 20px;
+      input {
+        display: block;
+        width: 100%;
+        height: 48px;
+        border: 1px solid #a7a7a7;
+        padding: 10px;
+        @include fonts_p(16px, 26px, 400);
+        color: #fff;
+        background: transparent;
+        &:focus,
+        &:hover{
+          outline: none;
+        }
+      }
+    }
+  }
+
+}
+.zone__item-bank {
+  padding: 0 20px 15px 0;
+}

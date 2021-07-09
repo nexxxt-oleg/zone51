@@ -93,13 +93,13 @@
                             сервис оплаты. Выберите удобный.</p>
                         <br>
                         <div class="d-flex align-items-center fpad15 flex-wrap">
-                            <div class="pr30 fpad15"><img src="./img/sber.svg" alt="" width="140" height="16"></div>
-                            <div class="pr30 fpad15"><img src="./img/ym.svg" alt="" width="115" height="24"></div>
-                            <div class="pr30 fpad15"><img src="./img/mir.svg" alt="" width="85" height="24"></div>
-                            <div class="pr30 fpad15"><img src="./img/visa.svg" alt="" width="85" height="24"></div>
-                            <div class="pr30 fpad15"><img src="./img/maestro.svg" alt="" width="32" height="24"></div>
-                            <div class="pr30 fpad15"><img src="./img/mc.svg" alt="" width="32" height="24"></div>
-                            <div class="pr30 fpad15"><img src="./img/qiwi.svg" alt="" width="53" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/sber.svg" alt="" width="140" height="16"></div>
+                            <div class="zone__item-bank"><img src="./img/ym.svg" alt="" width="115" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/mir.svg" alt="" width="85" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/visa.svg" alt="" width="85" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/maestro.svg" alt="" width="32" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/mc.svg" alt="" width="32" height="24"></div>
+                            <div class="zone__item-bank"><img src="./img/qiwi.svg" alt="" width="53" height="24"></div>
                         </div>
                         <p>При безналичной оплате картой вас перенаправит на сервер, где вы должны ввести номер карты,
                             срок действия, имя держателя. Все товары в наличии, ваш заказ не требует дополнительных
