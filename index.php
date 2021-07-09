@@ -2,7 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="./css/lib.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -18,28 +19,30 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="zone__home-slider__item zone__home-slider__item--sl1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-8">
-                                    <div class="zone__home-slider__item__desc">
-                                        <h2 class="zone__home-slider__item__title">
-                                            Кресло<br>
-                                            ZONE 51 CYBERPUNK
-                                        </h2>
-                                        <ul class="zone__home-slider__item__adv nav">
-                                            <li>Цветовые решения в стиле Киберпанк</li>
-                                            <li>Долговечные материалы отделки</li>
-                                            <li>Надежная конструкция и элементы управления</li>
-                                        </ul>
-                                        <div class="zone__home-slider__item__link">
-                                            <a href="/" class="zone__btn">
-                                                <span>ПОДРОБНЕЕ</span>
-                                            </a>
+                        <div class="zone__home-slider__item__inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-8">
+                                        <div class="zone__home-slider__item__desc">
+                                            <h2 class="zone__home-slider__item__title">
+                                                Кресло<br>
+                                                ZONE 51 CYBERPUNK
+                                            </h2>
+                                            <ul class="zone__home-slider__item__adv nav">
+                                                <li>Цветовые решения в стиле Киберпанк</li>
+                                                <li>Долговечные материалы отделки</li>
+                                                <li>Надежная конструкция и элементы управления</li>
+                                            </ul>
+                                            <div class="zone__home-slider__item__link">
+                                                <a href="/" class="zone__btn">
+                                                    <span>ПОДРОБНЕЕ</span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
 
@@ -47,6 +50,7 @@
                         .zone__home-slider__item--sl1 {
                             background-image: url("./img/bg1.jpg");
                         }
+
                         @media screen and (max-width: 768px) {
                             .zone__home-slider__item--sl1 {
                                 background-image: url("./img/bg1_mob.jpg");
@@ -56,28 +60,30 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="zone__home-slider__item zone__home-slider__item--sl2">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-8">
-                                    <div class="zone__home-slider__item__desc">
-                                        <h2 class="zone__home-slider__item__title">
-                                            Кресло<br>
-                                            ZONE 52 CYBERPUNK
-                                        </h2>
-                                        <ul class="zone__home-slider__item__adv nav">
-                                            <li>Цветовые решения в стиле Киберпанк</li>
-                                            <li>Долговечные материалы отделки</li>
-                                            <li>Надежная конструкция и элементы управления</li>
-                                        </ul>
-                                        <div class="zone__home-slider__item__link">
-                                            <a href="/" class="zone__btn">
-                                                <span>ПОДРОБНЕЕ</span>
-                                            </a>
+                        <div class="zone__home-slider__item__inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-8">
+                                        <div class="zone__home-slider__item__desc">
+                                            <h2 class="zone__home-slider__item__title">
+                                                Кресло<br>
+                                                ZONE 52 CYBERPUNK
+                                            </h2>
+                                            <ul class="zone__home-slider__item__adv nav">
+                                                <li>Цветовые решения в стиле Киберпанк</li>
+                                                <li>Долговечные материалы отделки</li>
+                                                <li>Надежная конструкция и элементы управления</li>
+                                            </ul>
+                                            <div class="zone__home-slider__item__link">
+                                                <a href="/" class="zone__btn">
+                                                    <span>ПОДРОБНЕЕ</span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
 
@@ -113,7 +119,8 @@
                 </div>
             </div>
             <div class="col-lg-4 fpad30 order-sm-0 order-lg-2">
-                <a href="" class="zone__category-link zone__category-link--big" style="background-image: url(./img/cat3.jpg)">
+                <a href="" class="zone__category-link zone__category-link--big"
+                   style="background-image: url(./img/cat3.jpg)">
                     Кресла
                 </a>
             </div>

@@ -4,6 +4,20 @@
 .zone__product__gallery__slider__nav {
   display: none;
 }
+@media screen and (min-width: 1921px) {
+  .zone__home-slider__item {
+    height: 0;
+    padding-top: 30%;
+    position: relative;
+  }
+  .zone__home-slider__item__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding-top: 120px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .zone__header__menu > li:not(:last-child) {
     padding-right: 30px;
