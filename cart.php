@@ -25,7 +25,7 @@
                 </li>
             </ul>
             <h1 class="zone__title">Корзина</h1>
-<<<<<<< Updated upstream
+
             <div class="zone__cart fpad100">
                 <div class="zone__cart__item">
                     <ul class="zone__product__label nav flex-column">
@@ -170,11 +170,7 @@
                         </div>
                     </div>
                 </div>
-=======
-            <div class="zone__cart">
 
->>>>>>> Stashed changes
-            </div>
         </div>
     </div>
     <?php
