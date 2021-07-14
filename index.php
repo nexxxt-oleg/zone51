@@ -17,6 +17,7 @@
     <aside class="zone__home-slider">
         <div class="swiper-container" id="sliderHome">
             <div class="swiper-wrapper">
+
                 <div class="swiper-slide">
                     <div class="zone__home-slider__item zone__home-slider__item--sl1">
                         <div class="zone__home-slider__item__inner">
@@ -58,6 +59,7 @@
                         }
                     </style>
                 </div>
+
                 <div class="swiper-slide">
                     <div class="zone__home-slider__item zone__home-slider__item--sl2">
                         <div class="zone__home-slider__item__inner">
